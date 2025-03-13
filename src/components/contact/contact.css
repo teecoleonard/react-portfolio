@@ -54,12 +54,66 @@ textarea {
   color: var(--color-white);
 }
 
+/* SCROLL TO TOP BUTTON */
+.scroll__top-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.scroll__top-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  padding: 0.8rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.scroll__top-button:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.scroll__top-button svg {
+  font-size: 1.2rem;
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
   .contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  
+  .scroll__top-container {
+    margin-top: 2rem;
+  }
+}
+
+/* Media Query for 1360x768 resolution */
+@media screen and (max-width: 1366px) and (min-width: 1025px) {
+    .contact__container {
+        width: 65%;
+        gap: 8%;
+    }
+    
+    .contact__option {
+        padding: 1rem;
+    }
+    
+    input, 
+    textarea {
+        padding: 1.2rem;
+    }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
@@ -83,5 +137,10 @@ textarea {
   input, 
   textarea {
     padding: 1.2rem;
+  }
+  
+  .scroll__top-button {
+    padding: 0.7rem 1.3rem;
+    font-size: 0.9rem;
   }
 }

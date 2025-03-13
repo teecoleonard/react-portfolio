@@ -6,8 +6,8 @@
 
 .about__me {
   width: 100%;
-  aspect-ratio: 1/1;
-  border-radius: 2rem;
+  aspect-ratio: 1/1.5;
+  border-radius:2rem;
   background: linear-gradient(
     45deg,
     transparent,
@@ -107,4 +107,24 @@
     margin: 1.5rem 0;
     font-size: 0.9rem;
   }
+}
+
+/* Media Query for 1360x768 resolution */
+@media screen and (max-width: 1366px) and (min-width: 1025px) {
+    .about__container {
+        grid-template-columns: 30% 55%;
+        gap: 15%;
+    }
+    
+    .about__cards {
+        gap: 1rem;
+    }
+    
+    .about__card {
+        padding: 1.8rem;
+    }
+    
+    .about__content p {
+        margin: 1.5rem 0 2rem;
+    }
 }

@@ -36,6 +36,17 @@
   }
 }
 
+/* Media Query for 1360x768 resolution */
+@media screen and (max-width: 1366px) and (min-width: 1025px) {
+    .testimonials__container {
+        width: 50%;
+    }
+    
+    .testimonial {
+        padding: 1.8rem;
+    }
+}
+
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
   .testimonials__container {

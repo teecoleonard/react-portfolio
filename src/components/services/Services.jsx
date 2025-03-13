@@ -91,7 +91,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Estudos de usabilidade</p>
+              <p>Motion design e transições suaves</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -99,7 +99,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Design system e padronização visual</p>
+              <p>Análise de métricas e testes A/B</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Acessibilidade e inclusão (A11Y)</p>
             </li>
           </ul>
         </article>

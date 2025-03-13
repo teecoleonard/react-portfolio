@@ -3,6 +3,8 @@ import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
+import { FaArrowUp } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   const form = useRef();
@@ -16,6 +18,13 @@ const Contact = () => {
     e.target.reset();
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <section id="contact">
       <h5>Entre em Contato</h5>
@@ -26,22 +35,15 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>leonardo@exemplo.com</h5>
-            <a href="mailto:leonardo@exemplo.com" target="_blank" rel="noreferrer">Envie uma mensagem</a>
-          </article>
-          
-          <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>Leonardo Henrique</h5>
-            <a href="https://m.me/leonardo.henrique" target="_blank" rel="noreferrer">Envie uma mensagem</a>
+            <h5>leonardo4q@gmail.com</h5>
+            <a href="mailto:leonardo4q@gmail.com" target="_blank" rel="noreferrer">Envie uma mensagem</a>
           </article>
           
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>+55 11 9xxxx-xxxx</h5>
-            <a href="https://api.whatsapp.com/send?phone=5511xxxxxxxxx" target="_blank" rel="noreferrer">Envie uma mensagem</a>
+            <h5>+55 34 99664-1594</h5>
+            <a href="https://api.whatsapp.com/send?phone=5534996641594" target="_blank" rel="noreferrer">Envie uma mensagem</a>
           </article>
         </div>
         
@@ -51,6 +53,12 @@ const Contact = () => {
           <textarea name="message" rows="7" placeholder="Sua Mensagem" required></textarea>
           <button type="submit" className="btn btn-primary">Enviar Mensagem</button>
         </form>
+      </div>
+      
+      <div className="scroll__top-container">
+        <button onClick={scrollToTop} className="scroll__top-button">
+          <FaArrowUp /> Voltar ao Topo
+        </button>
       </div>
     </section>
   );

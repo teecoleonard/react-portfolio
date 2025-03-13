@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
+import ME__alt from '../../assets/me-about4.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -23,26 +24,26 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experiência</h5>
-              <small>3+ Anos Trabalhando</small>
+              <small>3+ Anos</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clientes</h5>
-              <small>20+ No Brasil</small>
+              <small>10+ No Brasil</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projetos</h5>
-              <small>30+ Completados</small>
+              <small>15+ Completados</small>
             </article>
           </div>
 
           <p>
             Sou um desenvolvedor Fullstack apaixonado por criar soluções web eficientes e elegantes. Com experiência sólida
-            em React, Node.js e bases de dados SQL/NoSQL, busco constantemente aprender e aplicar novas tecnologias.
-            Meu objetivo é desenvolver aplicações que combinem boa experiência do usuário com código limpo e sustentável.
+            em React, Node.js e bases de dados SQL/NoSQL, busco aprender e aplicar meu conhecimento para ajudar as pessoas é uma das minhas maiores motivações.
+            Após a graduação, meu objetivo é explorar ainda mais o mundo da programação ou banco de dados, continuando a aprender e evoluir todos os dias..
           </p>
 
           <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
