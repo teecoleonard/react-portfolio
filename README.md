@@ -10,7 +10,7 @@ Este portfólio é uma aplicação web construída com React que apresenta meus 
 
 ## ✨ Demonstração
 
-[Link para o site em produção (se disponível)]
+[Link para o site em produção](https://teecoleonard.github.io/react-portfolio/)
 
 ## 🚀 Funcionalidades
 
@@ -19,16 +19,18 @@ Este portfólio é uma aplicação web construída com React que apresenta meus 
 - **Sistema de Carregamento de Imagens** otimizado com placeholders e tratamento de erros
 - **Design Responsivo** para todos os tamanhos de dispositivos
 - **Animações e Transições** suaves para melhorar a experiência do usuário
-- **Modo Escuro/Claro** (se implementado)
 
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces
-- [CSS Modular](https://github.com/css-modules/css-modules) - Para estilização com escopo local
-- [React Router](https://reactrouter.com/) - Navegação entre páginas (se utilizado)
-- [Git](https://git-scm.com/) - Controle de versão
+- [CSS Puro](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Para estilização com escopo local
+- [React Icons](https://react-icons.github.io/react-icons/) - Biblioteca de ícones populares para React
+- [JavaScript ES6+](https://www.ecma-international.org/) - Recursos modernos do JavaScript
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html) - useState, useRef para gerenciamento de estado
 - [GitHub](https://github.com/) - Hospedagem de código
-
+- Sistema personalizado de componentes como o PortfolioImage com lazy loading
+- Layout totalmente responsivo com media queries para diferentes tamanhos de tela
+  
 ## 📦 Instalação e Execução
 
 Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
@@ -38,7 +40,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 git clone https://github.com/seu-usuario/react-portfolio.git
 
 # Entre no diretório
-cd react-portifolio
+cd react-portfolio
 
 # Instale as dependências
 npm install
@@ -84,16 +86,12 @@ const data = [
 ];
 ```
 
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## 📞 Contato
 
-- Email: seu-email@example.com
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil/)
-- GitHub: [Seu GitHub](https://github.com/seu-usuario)
+- Email: leonardo4q@gmail.com
+- LinkedIn: [Link](www.linkedin.com/in/leonardohenriquedejesussilva)
+- GitHub: [Link](https://github.com/teecoleonard/)
 
 ---
 
-Desenvolvido com ❤️ por [Seu Nome]
+Desenvolvido por Leonardo Henrique

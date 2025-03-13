@@ -33,7 +33,7 @@
   margin-top: 0.5rem;
 }
 
-/* Portfolio Image System */
+/* Sistema de Imagem do Portfólio */
 .portfolio-image-container {
   position: relative;
   width: 100%;
@@ -157,7 +157,7 @@
   }
 }
 
-/* Media Query for 1360x768 resolution */
+/* Media Query para 1360x768 resolution */
 @media screen and (max-width: 1366px) and (min-width: 1025px) {
     .portfolio__container {
         gap: 1.8rem;

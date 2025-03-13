@@ -11,10 +11,9 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // You would normally use a service like EmailJS here
     // emailjs.sendForm('service_id', 'template_id', form.current, 'your-user-id')
     
-    // Reset the form after submission
+    // Testar depois o emailjs
     e.target.reset();
   };
 

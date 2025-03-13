@@ -4,8 +4,7 @@ const PortfolioImage = ({ src, alt, aspectRatio = '16:9' }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
   
-  // Parse the aspect ratio
-  let paddingTop = '56.25%'; // Default 16:9
+  let paddingTop = '56.25%'; // Padrão 16:9
   if (aspectRatio) {
     const [width, height] = aspectRatio.split(':').map(Number);
     paddingTop = `${(height / width) * 100}%`;
