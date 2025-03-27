@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-  color: var(--color-bg);
+  color: var(--color-dark);
 }
 
 .footer__logo {
@@ -34,7 +34,7 @@ footer a {
 
 .footer__copyright {
   margin-bottom: 4rem;
-  color: var(--color-bg);
+  color: var(--color-dark);
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */

@@ -1,44 +1,62 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const PortfolioImage = ({ src, alt, aspectRatio = '16:9' }) => {
-  const [imageLoaded, setImageLoaded] = useState(false);
-  const [hasError, setHasError] = useState(false);
+const PortfolioImage = ({ src, alt, aspectRatio = "16:9" }) => {
+  const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState(false);
   
-  let paddingTop = '56.25%'; // Padrão 16:9
-  if (aspectRatio) {
-    const [width, height] = aspectRatio.split(':').map(Number);
-    paddingTop = `${(height / width) * 100}%`;
-  }
-
-  const handleImageLoad = () => {
-    setImageLoaded(true);
+  // Calculate padding based on aspect ratio
+  const getPadding = () => {
+    if (aspectRatio) {
+      const [width, height] = aspectRatio.split(':').map(Number);
+      return `${(height / width) * 100}%`;
+    }
+    return '56.25%'; // Default 16:9 aspect ratio
   };
-
-  const handleImageError = () => {
-    setHasError(true);
-  };
-
+  
+  useEffect(() => {
+    // Reset state when source changes
+    setLoaded(false);
+    setError(false);
+    
+    const img = new Image();
+    img.src = src;
+    
+    img.onload = () => {
+      setLoaded(true);
+    };
+    
+    img.onerror = () => {
+      setError(true);
+    };
+    
+    return () => {
+      img.onload = null;
+      img.onerror = null;
+    };
+  }, [src]);
+  
   return (
-    <div className="portfolio-image-container" style={{ paddingTop }}>
-      {!imageLoaded && !hasError && (
+    <div 
+      className="portfolio-image-container" 
+      style={{ paddingTop: getPadding() }}
+    >
+      {!loaded && !error && (
         <div className="portfolio-image-placeholder">
           <div className="portfolio-image-loading"></div>
         </div>
       )}
       
-      {hasError ? (
-        <div className="portfolio-image-error">
-          <span>Erro ao carregar imagem</span>
+      {error && (
+        <div className="portfolio-image-placeholder">
+          <span>Failed to load image</span>
         </div>
-      ) : (
-        <img
-          src={src}
-          alt={alt}
-          className={`portfolio-image ${imageLoaded ? 'loaded' : ''}`}
-          onLoad={handleImageLoad}
-          onError={handleImageError}
-        />
       )}
+      
+      <img
+        src={src}
+        alt={alt}
+        className={`portfolio-image ${loaded ? 'loaded' : ''}`}
+      />
     </div>
   );
 };

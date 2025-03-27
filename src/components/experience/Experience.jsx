@@ -1,107 +1,188 @@
 import React from 'react'
 import './experience.css'
-import { BsPatchCheckFill } from 'react-icons/bs'
+import { FaCss3Alt, FaReact, FaNodeJs, FaDatabase, FaPython, FaDocker, FaFileExcel } from 'react-icons/fa'
+import { SiJavascript, SiTypescript, SiMongodb, SiMysql, SiTailwindcss, SiBootstrap, SiFirebase, SiPandas } from 'react-icons/si'
 
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Quais Habilidades Eu Tenho</h5>
-      <h2>Minha Experiência</h2>
-
       <div className="container experience__container">
-        <div className="experience__frontend">
-          <h3>Desenvolvimento Frontend</h3>
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Intermediário</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>JavaScript</h4>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>React</h4>
-                <small className='text-light'>Avançado</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Intermediário</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Tailwind</h4>
-                <small className='text-light'>Intermediário</small>
-              </div>
-            </article>
-          </div>
+        <div className="section__header">
+          <h5>Minhas Habilidades</h5>
+          <h2>Minha Experiência</h2>
+          
+          <p className="section__subtitle">
+            Minhas competências técnicas atualizadas e tecnologias com as quais trabalho regularmente.
+          </p>
         </div>
 
-        <div className="experience__backend">
-          <h3>Desenvolvimento Backend</h3>
-          <div className="experience__content">
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>NodeJS</h4>
-                <small className='text-light'>Avançado</small>
+        <div className="experience__grid">
+          <div className="experience__frontend">
+            <h3>Desenvolvimento FullStack</h3>
+            
+            <div className="experience__content">
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaReact />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>React</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "100%"}}></div>
+                  </div>
+                  <small>Avançado</small>
+                </div>
               </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>MongoDB</h4>
-                <small className='text-light'>Intermediário</small>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaNodeJs />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Node.js</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "75%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
               </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Django</h4>
-                <small className='text-light'>Básico</small>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiJavascript />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>JavaScript</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "90%"}}></div>
+                  </div>
+                  <small>Avançado</small>
+                </div>
               </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>MySQL/SQL Server</h4>
-                <small className='text-light'>Intermediário</small>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaDocker />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Docker</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "45%"}}></div>
+                  </div>
+                  <small>Básico</small>
+                </div>
               </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>Python</h4>
-                <small className='text-light'>Intermediário</small>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiTypescript />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>TypeScript</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "80%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
               </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-                <h4>NestJS</h4>
-                <small className='text-light'>Intermediário</small>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiFirebase />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Firebase</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "75%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
               </div>
-            </article>
+            </div>
+          </div>
+
+          <div className="experience__backend">
+            <h3>Análise de Dados</h3>
+            
+            <div className="experience__content">
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaFileExcel />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Excel</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "100%"}}></div>
+                  </div>
+                  <small>Avançado</small>
+                </div>
+              </div>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiMongodb />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>MongoDB</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "45%"}}></div>
+                  </div>
+                  <small>Básico</small>
+                </div>
+              </div>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaPython />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Python</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "75%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiMysql />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>MySQL/SQL</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "85%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiPandas />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Pandas</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "60%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaDatabase />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Power BI</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "90%"}}></div>
+                  </div>
+                  <small>Avançado</small>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

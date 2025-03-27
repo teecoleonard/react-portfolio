@@ -26,10 +26,12 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Entre em Contato</h5>
-      <h2>Contato</h2>
-
       <div className="container contact__container">
+        <div className="section__header">
+          <h5>Entre em Contato</h5>
+          <h2>Contato</h2>
+        </div>
+
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
