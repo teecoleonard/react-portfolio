@@ -10,9 +10,7 @@
 
 </div>
 
-<p align="center">
-  <img src="./public/portfolio-preview.png" alt="Preview do Portfólio" width="600px" style="border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
-</p>
+![image](https://github.com/user-attachments/assets/54b11fe8-d62a-4329-9db3-18bc99721306)
 
 ## 📋 Sobre o Projeto
 
