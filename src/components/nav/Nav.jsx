@@ -66,7 +66,7 @@ const Nav = () => {
             <a href="#" 
               onClick={() => handleNavLinkClick('#')} 
               className={activeNav === '#' ? 'active' : ''}>
-              Home
+              Início
             </a>
           </li>
           <li>

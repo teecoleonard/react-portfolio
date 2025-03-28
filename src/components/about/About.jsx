@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/eu.png'
-import { FaAward, FaUsers, FaFolderOpen } from 'react-icons/fa'
+import ME from '../../assets/me-about-profile.jpg'
+import { FaAward, FaFolderOpen } from 'react-icons/fa'
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
           <h5>Conheça</h5>
           <h2>Sobre Mim</h2>
           <div className="about__me-image">
-          <img src={ME} alt="About Image" />
+          <img src={ME} alt='About me'/>
         </div>
         </div>
         

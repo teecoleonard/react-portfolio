@@ -1,7 +1,7 @@
 import React from 'react'
 import './experience.css'
-import { FaCss3Alt, FaReact, FaNodeJs, FaDatabase, FaPython, FaDocker, FaFileExcel } from 'react-icons/fa'
-import { SiJavascript, SiTypescript, SiMongodb, SiMysql, SiTailwindcss, SiBootstrap, SiFirebase, SiPandas } from 'react-icons/si'
+import { FaReact, FaNodeJs, FaDatabase, FaPython, FaDocker, FaFileExcel } from 'react-icons/fa'
+import { SiJavascript, SiTypescript, SiMongodb, SiMysql, SiFirebase, SiPandas } from 'react-icons/si'
 
 const Experience = () => {
   return (

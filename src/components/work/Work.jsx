@@ -10,7 +10,7 @@ const Work = () => {
           <h5>Experiência Profissional</h5>
           <h2>Experiência & Serviços</h2>
           <p className="section__subtitle">
-            Minha jornada profissional e os serviços que ofereço como desenvolvedor fullstack.
+            Minha jornada profissional e os serviços que ofereço.
           </p>
         </div>
         
@@ -29,19 +29,18 @@ const Work = () => {
                     <FaBuilding /> <span>NTT DATA</span>
                   </div>
                   <div className="work__item-period">
-                    <FaCalendarAlt /> <span>2022 - Atual</span>
+                    <FaCalendarAlt /> <span>Jul 2023 - Atual</span>
                   </div>
                 </div>
                 <div className="work__item-content">
                   <p>
-                    Desenvolvimento de aplicações web utilizando React no frontend e Node.js no backend. 
-                    Implementação de APIs RESTful e integração com sistemas de terceiros.
+                  Utilizo minhas habilidades especializadas para extrair, transformar e visualizar dados cruciais do banco de dados. Isso me permite traduzir informações em painéis interativos e relatórios para várias equipes.
                   </p>
                   <ul>
-                    <li>Desenvolvimento frontend com React, Redux e Styled Components</li>
-                    <li>Construção de APIs com Node.js, Express e MongoDB</li>
-                    <li>Implementação de autenticação JWT e OAuth</li>
-                    <li>Otimização de performance e UX</li>
+                    <li>Mantenho o banco de dados de clientes atualizado no CRM, garantindo a integridade dos dados, contribuindo para a comunicação de informações de desempenho a partes internas interessadas, matriz e gerência.</li> 
+                    <li>Realizo o monitoramento mensal das matrículas ativas e sou responsável pelos relatórios de atendimento, informações de lojas e relatórios de carga.</li>
+                    <li>Desenvolvo e gerencio indicadores-chave de desempenho, fornecendo insights para aprimorar a eficiência operacional.</li>
+                    <li>Realizo a utilização em sistemas de gestão empresarial, com foco especializado na ferramenta SAP. Minha jornada inclui a implementação bem-sucedida e a customização de soluções SAP para otimizar operações em diversas áreas, como finanças, recursos humanos e logística.</li>
                   </ul>
                 </div>
               </div>
@@ -51,23 +50,46 @@ const Work = () => {
                   <div className="work__item-icon">
                     <FaBriefcase />
                   </div>
-                  <h4>Desenvolvedor Frontend</h4>
+                  <h4>Analista de Operações</h4>
                   <div className="work__item-company">
-                    <FaBuilding /> <span>Startup ABC</span>
+                    <FaBuilding /> <span>NTT DATA</span>
                   </div>
                   <div className="work__item-period">
-                    <FaCalendarAlt /> <span>2021 - 2022</span>
+                    <FaCalendarAlt /> <span>Jun 2023 - Jul 2023</span>
                   </div>
                 </div>
                 <div className="work__item-content">
                   <p>
-                    Atuação no desenvolvimento de interfaces de usuário responsivas e acessíveis para aplicações web.
+                  Especialista em otimização de processos, melhoria de eficiência e obtenção de resultados. Experiência em monitorar e analisar fluxos de trabalho, identificar oportunidades de aprimoramento e implementar mudanças estratégicas.
                   </p>
                   <ul>
-                    <li>Desenvolvimento de UI com HTML5, CSS3 e JavaScript</li>
-                    <li>Implementação de designs responsivos e acessíveis</li>
-                    <li>Otimização de SEO e performance</li>
-                    <li>Colaboração em metodologias ágeis</li>
+                    <li>Coleta e analisa dados operacionais para identificar tendências e insights. Desenvolvimento e implemenção de processos, garantindo alta qualidade e conformidade.</li>
+                    <li>Colabora com equipes internas, promovendo coordenação e alcançando metas operacionais. Prepara relatórios e apresentações impactantes.</li>
+                    <li>Excelentes habilidades de comunicação e tomada de decisões.</li>
+                    <li>Impulsiona o sucesso operacional e contribui para o crescimento da organização.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="work__item">
+                <div className="work__item-header">
+                  <div className="work__item-icon">
+                    <FaBriefcase />
+                  </div>
+                  <h4>BackOffice</h4>
+                  <div className="work__item-company">
+                    <FaBuilding /> <span>Algar Tech</span>
+                  </div>
+                  <div className="work__item-period">
+                    <FaCalendarAlt /> <span>Jun 2023 - Jul 2023</span>
+                  </div>
+                </div>
+                <div className="work__item-content">
+                  <p>
+                  Realizo análise crítica de contas com valores de alto risco para a devolução de saldos residuais em contas relacionadas ao Bradesco. 
+                  </p>
+                  <ul>
+                    <li>Meu trabalho visa garantir a conformidade e a segurança das operações, sempre mantendo o compromisso com a integridade do cliente e a transparência nos processos financeiros.</li>
                   </ul>
                 </div>
               </div>
@@ -96,7 +118,7 @@ const Work = () => {
                 <div className="work__service-icon">⚙️</div>
                 <h4>Desenvolvimento Backend</h4>
                 <p>
-                  Desenvolvimento de APIs robustas, sistemas de banco de dados e lógica de servidor com Node.js, Express e MongoDB/SQL.
+                  Desenvolvimento de APIs robustas, sistemas de banco de dados e lógica de servidor com Node.js, Express e MySQL/SQL.
                 </p>
                 <ul className="work__service-features">
                   <li>APIs RESTful</li>

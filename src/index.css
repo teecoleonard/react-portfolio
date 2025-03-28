@@ -16,6 +16,7 @@
     --color-bg-alt: #f8f8f8;
     --color-bg-dark: #111111;
     --color-primary: #58ff0a;
+    --color-primary-footer: #58ff0a;
     --color-primary-variant: #70ff94;
     --color-secondary: #00d09c;
     --color-dark: #111111;
@@ -23,6 +24,7 @@
     --color-light: #767676;
     --color-lighter: #e5e5e5;
     --color-white: #ffffff;
+    --color-dark-alt: #000000;
     
     /* Gradientes */
     --gradient-primary: linear-gradient(135deg, var(--color-primary), var(--color-primary-variant));
@@ -74,12 +76,14 @@
     --color-bg-alt: #1a1a1a;
     --color-bg-dark: #0a0a0a;
     --color-primary: #b6ff24;
+    --color-primary-footer: #4d5048;
     --color-primary-variant: #d9ff7f;
     --color-dark: #f8f8f8;
     --color-light-dark: #e5e5e5;
     --color-light: #a0a0a0;
     --color-lighter: #333333;
     --color-white: #121212;
+    --color-dark-alt: #000000;
     
     --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.2);
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.25);
@@ -272,12 +276,17 @@ a:hover {
 
 .btn-primary {
     background: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-dark-alt);
     border: none;
 }
 
+.btn-primary:hover {
+    background: var(--color-dark);
+    color: var(--color-primary);
+}
+
 .btn-outline {
-    background: transparent;
+    background: var(--color-dark);
     color: var(--color-primary);
 }
 

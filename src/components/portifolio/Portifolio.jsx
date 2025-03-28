@@ -3,7 +3,7 @@ import './portifolio.css'
 import PortfolioImage from './PortfolioImage'
 import IMG1 from '../../assets/portfolio2.png'
 import IMG2 from '../../assets/portfolio1.png'
-import IMG3 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/portfolio5.png'
 import { FaGithub, FaExternalLinkAlt, FaFilter } from 'react-icons/fa'
 
 // Dados dos projetos do portfólio
@@ -14,11 +14,11 @@ const projects = [
     title: 'Project Firebase',
     description: 'Sistema de gerenciamento de usuários com autenticação Firebase. Inclui funcionalidades de login social, recuperação de senha e perfis de usuário personalizáveis.',
     github: 'https://github.com/teecoleonard/project-firebase',
-    demo: 'https://dribbble.com',
+    demo: 'https://github.com/teecoleonard/project-firebase',
     progress: 100,
     status: 'Concluído',
     category: 'app',
-    techs: ['React', 'Firebase', 'Redux']
+    techs: ['Android', 'Firebase', 'Java']
   },
   {
     id: 2,
@@ -34,15 +34,15 @@ const projects = [
   },
   {
     id: 3,
-    image: IMG3,
-    title: 'Psicologia Website',
-    description: 'Website institucional para consultório de psicologia com agendamento online, blog e área administrativa para gerenciamento de conteúdo e pacientes.',
-    github: 'https://github.com/teecoleonard/psicoterapia-site',
-    demo: 'https://psisaramartins.com/',
+    image: IMG4,
+    title: 'Projeto TMDB para CSV',
+    description: 'Este projeto busca dados do TMDB (The Movie Database) e os salva em arquivos CSV. O objetivo é criar um banco de dados local para análise posterior.',
+    github: 'https://github.com/teecoleonard/Projeto',
+    demo: 'https://github.com/teecoleonard/Projeto',
     progress: 100,
     status: 'Concluído',
-    category: 'web',
-    techs: ['HTML/CSS', 'JavaScript', 'PHP']
+    category: 'api',
+    techs: ['Python', 'TMDB', 'CSV']
   }
 ]
 
@@ -82,9 +82,9 @@ const Portfolio = () => {
             Aplicativos
           </button>
           <button 
-            className={filter === 'design' ? 'active' : ''} 
-            onClick={() => setFilter('design')}>
-            Design
+            className={filter === 'api' ? 'active' : ''} 
+            onClick={() => setFilter('api')}>
+            API
           </button>
         </div>
 

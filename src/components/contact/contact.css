@@ -1,17 +1,38 @@
-.contact__container {
-  width: 58%;
-  display: grid;
-  grid-template-columns: 30% 58%;
-  gap: 12%;
+.contact-section {
+  padding: 6rem 0;
 }
 
-.contact__options {
+.contact-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 58% 38%;
+  gap: 4%;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-header h5 {
+  color: var(--color-light);
+  font-size: 0.9rem;
+}
+
+.contact-header h2 {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.contact-options-wrapper {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  justify-content: center;
 }
 
-.contact__option {
+.contact-option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 1.2rem;
@@ -20,127 +41,114 @@
   transition: var(--transition);
 }
 
-.contact__option:hover {
+.contact-option:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
 }
 
-.contact__option-icon {
+.contact-option-icon {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  color: var(--color-primary);
 }
 
-.contact__option a {
+.contact-option h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contact-option h5 {
+  font-size: 0.9rem;
+  color: var(--color-light);
+}
+
+.contact-option a {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
+  color: var(--color-primary);
 }
 
-/* FORM */
-form {
+/* ===== FORM ===== */
+.contact-form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
 }
 
-input, 
-textarea {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
-  color: var(--color-white);
+  color: var(--color-dark);
+  font-family: inherit;
 }
 
-/* SCROLL PARA BAIXO */
-.scroll__top-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-}
-
-.scroll__top-button {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: var(--color-primary);
-  color: var(--color-bg);
-  padding: 0.8rem 1.5rem;
-  border-radius: 2rem;
+.contact-btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
-  font-weight: 500;
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
 
-.scroll__top-button:hover {
-  background: var(--color-white);
+.contact-btn:hover {
+  background: var(--color-dark);
   color: var(--color-bg);
   border-color: transparent;
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.scroll__top-button svg {
-  font-size: 1.2rem;
+/* ===== SCROLL TO TOP ===== */
+.contact-scroll-top {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
-/* MEDIA QUERIES (MEDIUM DEVICES) */
+.contact-scroll-button {
+  background: var(--color-primary);
+  color: var(--color-bg);
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.contact-scroll-button:hover {
+  background: var(--color-dark);
+  color: var(--color-bg);
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 @media screen and (max-width: 1024px) {
-  .contact__container {
+  .contact-container {
     grid-template-columns: 1fr;
     gap: 2rem;
+    width: var(--container-width-md);
   }
   
-  .scroll__top-container {
-    margin-top: 2rem;
+  .contact-options-wrapper {
+    margin-bottom: 2rem;
   }
 }
 
-/* Media Query para 1360x768 resolution */
-@media screen and (max-width: 1366px) and (min-width: 1025px) {
-    .contact__container {
-        width: 65%;
-        gap: 8%;
-    }
-    
-    .contact__option {
-        padding: 1rem;
-    }
-    
-    input, 
-    textarea {
-        padding: 1.2rem;
-    }
-}
-
-/* MEDIA QUERIES (SMALL DEVICES) */
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
 @media screen and (max-width: 600px) {
-  .contact__container {
+  .contact-container {
     width: var(--container-width-sm);
-  }
-  
-  .contact__options {
-    gap: 1rem;
-  }
-  
-  .contact__option {
-    padding: 1rem;
-  }
-  
-  form {
-    gap: 1rem;
-  }
-  
-  input, 
-  textarea {
-    padding: 1.2rem;
-  }
-  
-  .scroll__top-button {
-    padding: 0.7rem 1.3rem;
-    font-size: 0.9rem;
   }
 }
