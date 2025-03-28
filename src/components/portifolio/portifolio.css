@@ -249,6 +249,10 @@
   .portfolio__container {
     grid-template-columns: 1fr;
   }
+  .portfolio__items {
+    display: flex;
+    flex-direction: column;
+  }
   
   .portfolio__item-cta {
     flex-direction: column;
