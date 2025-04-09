@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Status do Projeto](https://img.shields.io/badge/status-finalizado-green)
+![Status do Projeto](https://img.shields.io/badge/status-em%20progresso-orange)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript)
 ![CSS3](https://img.shields.io/badge/CSS3-Modules-1572B6?logo=css3)
