@@ -14,7 +14,7 @@
 
 ## 📋 Sobre o Projeto
 
-Site de portfólio profissional desenvolvido com React que apresenta projetos, habilidades e experiências profissionais de forma moderna e interativa. A aplicação foi construída com foco em:
+Site de portfólio profissional desenvolvido com React que apresenta projetos (o site não remete ao meu portfólio real, apenas exemplar), habilidades e experiências profissionais de forma moderna e interativa. A aplicação foi construída com foco em:
 
 - ✅ **Performance** - Otimização de carregamento e renderização
 - ✅ **Acessibilidade** - Código semântico e navegação inclusiva
