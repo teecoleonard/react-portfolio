@@ -275,16 +275,6 @@ Modifique as variáveis CSS em `src/index.css`:
 - [♿ Acessibilidade](src/IMPROVEMENTS.md#melhorias-de-acessibilidade) - Padrões implementados
 - [⚡ Performance](src/IMPROVEMENTS.md#otimização-de-performance) - Otimizações aplicadas
 
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
-3. Commit suas mudanças (`git commit -m 'feat: adicionar nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um Pull Request
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
