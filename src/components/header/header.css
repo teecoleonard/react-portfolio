@@ -37,7 +37,7 @@ header {
 
 .header__subtitle {
   font-size: 2rem;
-  color: var(--color-primary);
+  color: var(--color-dark);
   margin-bottom: 1.5rem;
 }
 
@@ -65,12 +65,12 @@ header {
 
 .header__socials a {
   font-size: 1.5rem;
-  color: var(--color-light-dark);
+  color: #ffffff !important;
   transition: var(--transition);
 }
 
 .header__socials a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary) !important;
   transform: translateY(-3px);
 }
 
@@ -85,14 +85,14 @@ header {
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: var(--color-light-dark);
+  color: #ffffff !important;
   font-size: 0.9rem;
   letter-spacing: 2px;
   transition: var(--transition);
 }
 
 .scroll__indicator a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary) !important;
   transform: translateY(5px);
 }
 

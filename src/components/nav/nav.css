@@ -32,6 +32,16 @@ nav.scrolled {
   color: var(--color-dark);
   text-decoration: none;
   letter-spacing: -0.5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: var(--transition);
+}
+
+.nav__logo:hover {
+  color: var(--color-primary);
+  transform: scale(1.02);
 }
 
 .nav__logo span {

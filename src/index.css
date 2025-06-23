@@ -15,8 +15,8 @@
     --color-bg: #ffffff;
     --color-bg-alt: #f8f8f8;
     --color-bg-dark: #111111;
-    --color-primary: #58ff0a;
-    --color-primary-footer: #58ff0a;
+    --color-primary: #0f5907;
+    --color-primary-footer: #0f5907;
     --color-primary-variant: #70ff94;
     --color-secondary: #00d09c;
     --color-dark: #111111;
@@ -27,7 +27,7 @@
     --color-dark-alt: #000000;
     
     /* Gradientes */
-    --gradient-primary: linear-gradient(135deg, var(--color-primary), var(--color-primary-variant));
+    --gradient-primary: linear-gradient(135deg, var(--color-primary-variant), var(--color-primary));
     --gradient-secondary: linear-gradient(135deg, var(--color-secondary), #00e6a8);
     
     /* Shadow effects */
@@ -395,11 +395,11 @@ header .btn-outline:hover {
 }
 
 header .scroll__indicator a {
-    color: var(--color-white);
+    color: #ffffff !important;
 }
 
 header .header__socials a {
-    color: var(--color-white);
+    color: #ffffff !important;
 }
 
 header .header__socials a:hover {
