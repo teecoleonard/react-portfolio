@@ -17,7 +17,7 @@
 
 Site de portfólio profissional moderno desenvolvido com React, seguindo as **melhores práticas atuais** de desenvolvimento. Recentemente **refatorado** com Context API, hooks customizados e melhorias significativas de performance e acessibilidade.
 
-### 🌟 **Últimas Atualizações (2024)**
+### 🌟 **Últimas Atualizações (2025)**
 - ✅ **Arquitetura Moderna**: Context API e hooks customizados
 - ✅ **Zero Warnings**: ESLint e acessibilidade 100% conforme
 - ✅ **Performance Otimizada**: Redução de 40% em re-renderizações
