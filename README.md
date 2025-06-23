@@ -17,7 +17,7 @@
 
 Site de portfólio profissional moderno desenvolvido com React, seguindo as **melhores práticas atuais** de desenvolvimento. Recentemente **refatorado** com Context API, hooks customizados e melhorias significativas de performance e acessibilidade.
 
-### 🌟 **Últimas Atualizações (2024)**
+### 🌟 **Últimas Atualizações (2025)**
 - ✅ **Arquitetura Moderna**: Context API e hooks customizados
 - ✅ **Zero Warnings**: ESLint e acessibilidade 100% conforme
 - ✅ **Performance Otimizada**: Redução de 40% em re-renderizações
@@ -231,26 +231,6 @@ Modifique as variáveis CSS em `src/index.css`:
 | **Performance** | Padrão | Otimizada | ⬆️ Melhorada |
 | **Warnings ESLint** | 1 | 0 | ✅ Zero |
 
-## 🎯 Principais Benefícios
-
-### **Para Desenvolvedores**
-- ✅ Código limpo e bem documentado
-- ✅ Estrutura escalável e manutenível
-- ✅ Padrões modernos do React
-- ✅ Zero warnings de lint/acessibilidade
-
-### **Para Usuários**
-- ✅ Navegação fluida e intuitiva
-- ✅ Acessibilidade completa
-- ✅ Performance otimizada
-- ✅ Design responsivo e moderno
-
-### **Para o Negócio**
-- ✅ SEO-friendly structure
-- ✅ Facilidade de manutenção
-- ✅ Preparado para crescimento
-- ✅ Conformidade com padrões web
-
 ## 🚀 Próximos Passos
 
 ### **Curto Prazo**
@@ -274,16 +254,6 @@ Modifique as variáveis CSS em `src/index.css`:
 - [🏗️ Arquitetura](src/IMPROVEMENTS.md#arquitetura-atual) - Estrutura do projeto
 - [♿ Acessibilidade](src/IMPROVEMENTS.md#melhorias-de-acessibilidade) - Padrões implementados
 - [⚡ Performance](src/IMPROVEMENTS.md#otimização-de-performance) - Otimizações aplicadas
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
-3. Commit suas mudanças (`git commit -m 'feat: adicionar nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um Pull Request
 
 ## 📄 Licença
 
