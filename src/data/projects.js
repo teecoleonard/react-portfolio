@@ -16,7 +16,7 @@ export const projects = [
     progress: 100,
     status: 'Concluído',
     category: 'app',
-    techs: ['Android', 'Kotlin', 'MySQL', 'Java', 'MVVM']
+    techs: ['Android', 'Kotlin', 'MySQL', 'MVVM']
   },
   {
     id: 2,
