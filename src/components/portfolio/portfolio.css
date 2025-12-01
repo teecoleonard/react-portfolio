@@ -234,7 +234,7 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
-  .portfolio__container {
+  .portfolio__items {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
@@ -246,12 +246,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .portfolio__container {
-    grid-template-columns: 1fr;
-  }
   .portfolio__items {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
   
   .portfolio__item-cta {
