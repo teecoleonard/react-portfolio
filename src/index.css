@@ -11,29 +11,29 @@
 }
 
 :root {
-    /* Esquema de cores modificado */
-    --color-bg: #ffffff;
-    --color-bg-alt: #f8f8f8;
-    --color-bg-dark: #111111;
-    --color-primary: #0f5907;
-    --color-primary-footer: #0f5907;
-    --color-primary-variant: #70ff94;
-    --color-secondary: #00d09c;
-    --color-dark: #111111;
-    --color-light-dark: #333333;
-    --color-light: #767676;
-    --color-lighter: #e5e5e5;
-    --color-white: #ffffff;
+    /* Novo esquema de cores: Azul, Vermelho e Preto */
+    --color-bg: #0a0e27;
+    --color-bg-alt: #121829;
+    --color-bg-dark: #080b1a;
+    --color-primary: #ff4757;
+    --color-primary-footer: #ff4757;
+    --color-primary-variant: #ff6b7a;
+    --color-secondary: #1e90ff;
+    --color-dark: #e8e8e8;
+    --color-light-dark: #b8b8b8;
+    --color-light: #888888;
+    --color-lighter: #2a2f4a;
+    --color-white: #0f1419;
     --color-dark-alt: #000000;
     
     /* Gradientes */
     --gradient-primary: linear-gradient(135deg, var(--color-primary-variant), var(--color-primary));
-    --gradient-secondary: linear-gradient(135deg, var(--color-secondary), #00e6a8);
+    --gradient-secondary: linear-gradient(135deg, var(--color-secondary), #1e90ff);
     
     /* Shadow effects */
-    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.04);
-    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.08);
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
     
     /* Animation transitions */
     --transition-fast: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -51,58 +51,27 @@
     --border-radius-lg: 1rem;
 
     /* Cores específicas para cada seção */
-    --color-header: #1628c7; /* Azul escuro para o header */
+    --color-header: #0a0e27; /* Preto/Azul escuro para o header */
     --color-header-text: #ffffff; /* Texto branco no header */
-    --color-about: #ffffff;
-    --color-experience: #f3f3f3; /* Cinza muito claro */
-    --color-work: #1628c7; /* Azul escuro como o header */
-    --color-portfolio: #ffffff; /* Branco para contrastar com o work */
-    --color-contact: #f3f3f3; /* Cinza muito claro */
+    --color-about: #121829;
+    --color-experience: #0f1419; /* Preto mais profundo */
+    --color-work: #0a0e27; /* Preto/Azul escuro */
+    --color-portfolio: #121829; /* Cinza escuro */
+    --color-contact: #0f1419; /* Preto */
     
     /* Gradientes para transições de seção */
-    --gradient-header-about: linear-gradient(to bottom, #1628c7, #ffffff);
-    --gradient-about-experience: linear-gradient(to bottom, #ffffff, #f3f3f3);
-    --gradient-experience-work: linear-gradient(to bottom, #f3f3f3, #1628c7);
-    --gradient-work-portfolio: linear-gradient(to bottom, #1628c7, #ffffff);
-    --gradient-portfolio-contact: linear-gradient(to bottom, #ffffff, #f3f3f3);
+    --gradient-header-about: linear-gradient(to bottom, #0a0e27, #121829);
+    --gradient-about-experience: linear-gradient(to bottom, #121829, #0f1419);
+    --gradient-experience-portfolio: linear-gradient(to bottom, #0f1419, #121829);
+    --gradient-portfolio-contact: linear-gradient(to bottom, #121829, #0f1419);
 
     /* Tempo de transição para animações entre seções */
     --section-transition: 0.8s;
 }
 
-/* Dark mode (will be toggled with JavaScript) */
+/* Dark mode (será aplicado por padrão agora) */
 .dark-theme {
-    --color-bg: #111111;
-    --color-bg-alt: #1a1a1a;
-    --color-bg-dark: #0a0a0a;
-    --color-primary: #b6ff24;
-    --color-primary-footer: #4d5048;
-    --color-primary-variant: #d9ff7f;
-    --color-dark: #f8f8f8;
-    --color-light-dark: #e5e5e5;
-    --color-light: #a0a0a0;
-    --color-lighter: #333333;
-    --color-white: #121212;
-    --color-dark-alt: #000000;
-    
-    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.2);
-    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.25);
-    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.3);
-
-    /* Cores específicas para cada seção no modo escuro */
-    --color-header: #111111;
-    --color-about: #1a1a1a;
-    --color-experience: #111111;
-    --color-work: #1a1a1a;
-    --color-portfolio: #111111;
-    --color-contact: #1a1a1a;
-    
-    /* Gradientes para transições de seção no modo escuro */
-    --gradient-header-about: linear-gradient(to bottom, #111111, #1a1a1a);
-    --gradient-about-experience: linear-gradient(to bottom, #1a1a1a, #111111);
-    --gradient-experience-work: linear-gradient(to bottom, #111111, #1a1a1a);
-    --gradient-work-portfolio: linear-gradient(to bottom, #1a1a1a, #111111);
-    --gradient-portfolio-contact: linear-gradient(to bottom, #111111, #1a1a1a);
+    /* As cores já estão configuradas para tema escuro por padrão */
 }
 
 html {
@@ -165,19 +134,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 5.5rem;
+    font-size: 4rem;
     letter-spacing: -2px;
     margin-bottom: 1.5rem;
 }
 
 h2 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     letter-spacing: -1px;
     margin-bottom: 1rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     letter-spacing: -0.5px;
 }
 
@@ -414,46 +383,6 @@ section#experience {
     background-color: var(--color-experience);
 }
 
-section#work {
-    background-color: var(--color-header);
-    color: var(--color-header-text);
-    position: relative;
-    z-index: 2; /* z-index aumentado */
-    opacity: 1 !important; /* Forçar visibilidade */
-    transform: none !important; /* Impedir transformação que possa esconder */
-    padding: 9rem 0;
-}
-
-section#work h2,
-section#work h3,
-section#work h4,
-section#work h5,
-section#work .section__title,
-section#work .section__subtitle {
-    color: #ffffff !important;
-}
-
-section#work .work__item-content p,
-section#work .work__item-content li,
-section#work .work__service-card p {
-    color: rgba(255, 255, 255, 0.9);
-}
-
-section#work .section__header h5 {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-/* Ajuste das cores dos cartões na seção Work */
-section#work .work__service-card {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.2);
-}
-
-section#work .work__service-card:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-    border-color: var(--color-primary);
-}
-
 section#portfolio {
     background-color: var(--color-portfolio) !important;
     color: var(--color-dark) !important;
@@ -502,12 +431,8 @@ section#contact {
     background: var(--gradient-about-experience);
 }
 
-.section-divider-experience-work {
-    background: var(--gradient-experience-work);
-}
-
-.section-divider-work-portfolio {
-    background: var(--gradient-work-portfolio);
+.section-divider-experience-portfolio {
+    background: var(--gradient-experience-portfolio);
 }
 
 .section-divider-portfolio-contact {
@@ -525,11 +450,11 @@ section#contact {
     }
     
     h1 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
     
     h2 {
-        font-size: 3rem;
+        font-size: 2.4rem;
     }
 }
 
@@ -551,12 +476,12 @@ section#contact {
     }
     
     h1 {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
         letter-spacing: -1px;
     }
     
     h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .section__header {
@@ -578,12 +503,12 @@ section#contact {
     }
     
     h1 {
-        font-size: 2.7rem;
+        font-size: 2.2rem;
         letter-spacing: -0.5px;
     }
     
     h2 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     
     .btn {

@@ -1,52 +1,26 @@
 import React from 'react'
 import './experience.css'
-import { FaReact, FaNodeJs, FaDatabase, FaPython, FaDocker, FaFileExcel } from 'react-icons/fa'
-import { SiJavascript, SiTypescript, SiMongodb, SiMysql, SiFirebase, SiPandas } from 'react-icons/si'
+import { FaReact, FaNodeJs, FaPython, FaDocker, FaJava, FaAndroid } from 'react-icons/fa'
+import { SiJavascript, SiTypescript, SiMongodb, SiMysql, SiFirebase, SiPandas, SiKotlin, SiIonic } from 'react-icons/si'
 
 const Experience = () => {
   return (
     <section id='experience'>
       <div className="container experience__container">
         <div className="section__header">
-          <h5>Minhas Habilidades</h5>
-          <h2>Minha Experiência</h2>
+          <h5>Minha Expertise</h5>
+          <h2>Tecnologias & Ferramentas</h2>
           
           <p className="section__subtitle">
-            Minhas competências técnicas atualizadas e tecnologias com as quais trabalho regularmente.
+            Competências técnicas e tecnologias com as quais trabalho regularmente.
           </p>
         </div>
 
         <div className="experience__grid">
           <div className="experience__frontend">
-            <h3>Desenvolvimento FullStack</h3>
+            <h3>Linguagens de Programação</h3>
             
             <div className="experience__content">
-              <div className="experience__skill">
-                <div className="experience__skill-icon">
-                  <FaReact />
-                </div>
-                <div className="experience__skill-info">
-                  <h4>React</h4>
-                  <div className="experience__skill-bar">
-                    <div className="experience__skill-progress" style={{width: "100%"}}></div>
-                  </div>
-                  <small>Avançado</small>
-                </div>
-              </div>
-              
-              <div className="experience__skill">
-                <div className="experience__skill-icon">
-                  <FaNodeJs />
-                </div>
-                <div className="experience__skill-info">
-                  <h4>Node.js</h4>
-                  <div className="experience__skill-bar">
-                    <div className="experience__skill-progress" style={{width: "75%"}}></div>
-                  </div>
-                  <small>Intermediário</small>
-                </div>
-              </div>
-              
               <div className="experience__skill">
                 <div className="experience__skill-icon">
                   <SiJavascript />
@@ -57,19 +31,6 @@ const Experience = () => {
                     <div className="experience__skill-progress" style={{width: "90%"}}></div>
                   </div>
                   <small>Avançado</small>
-                </div>
-              </div>
-              
-              <div className="experience__skill">
-                <div className="experience__skill-icon">
-                  <FaDocker />
-                </div>
-                <div className="experience__skill-info">
-                  <h4>Docker</h4>
-                  <div className="experience__skill-bar">
-                    <div className="experience__skill-progress" style={{width: "45%"}}></div>
-                  </div>
-                  <small>Básico</small>
                 </div>
               </div>
               
@@ -88,6 +49,90 @@ const Experience = () => {
               
               <div className="experience__skill">
                 <div className="experience__skill-icon">
+                  <FaPython />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Python</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "75%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaJava />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Java</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "70%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiKotlin />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Kotlin</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "70%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="experience__backend">
+            <h3>Front-end & Mobile</h3>
+            
+            <div className="experience__content">
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaReact />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>React.js</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "100%"}}></div>
+                  </div>
+                  <small>Avançado</small>
+                </div>
+              </div>
+
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiIonic />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Ionic & Angular</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "75%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+              
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaAndroid />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Android Studio</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "70%"}}></div>
+                  </div>
+                  <small>Intermediário</small>
+                </div>
+              </div>
+
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
                   <SiFirebase />
                 </div>
                 <div className="experience__skill-info">
@@ -101,49 +146,23 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="experience__backend">
-            <h3>Análise de Dados</h3>
+          <div className="experience__databases">
+            <h3>Back-end & Dados</h3>
             
             <div className="experience__content">
               <div className="experience__skill">
                 <div className="experience__skill-icon">
-                  <FaFileExcel />
+                  <FaNodeJs />
                 </div>
                 <div className="experience__skill-info">
-                  <h4>Excel</h4>
-                  <div className="experience__skill-bar">
-                    <div className="experience__skill-progress" style={{width: "100%"}}></div>
-                  </div>
-                  <small>Avançado</small>
-                </div>
-              </div>
-              
-              <div className="experience__skill">
-                <div className="experience__skill-icon">
-                  <SiMongodb />
-                </div>
-                <div className="experience__skill-info">
-                  <h4>MongoDB</h4>
-                  <div className="experience__skill-bar">
-                    <div className="experience__skill-progress" style={{width: "45%"}}></div>
-                  </div>
-                  <small>Básico</small>
-                </div>
-              </div>
-              
-              <div className="experience__skill">
-                <div className="experience__skill-icon">
-                  <FaPython />
-                </div>
-                <div className="experience__skill-info">
-                  <h4>Python</h4>
+                  <h4>Node.js</h4>
                   <div className="experience__skill-bar">
                     <div className="experience__skill-progress" style={{width: "75%"}}></div>
                   </div>
                   <small>Intermediário</small>
                 </div>
               </div>
-              
+
               <div className="experience__skill">
                 <div className="experience__skill-icon">
                   <SiMysql />
@@ -156,30 +175,43 @@ const Experience = () => {
                   <small>Intermediário</small>
                 </div>
               </div>
-              
+
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <SiMongodb />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>MongoDB</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "45%"}}></div>
+                  </div>
+                  <small>Básico</small>
+                </div>
+              </div>
+
               <div className="experience__skill">
                 <div className="experience__skill-icon">
                   <SiPandas />
                 </div>
                 <div className="experience__skill-info">
-                  <h4>Pandas</h4>
+                  <h4>Pandas & Power BI</h4>
                   <div className="experience__skill-bar">
-                    <div className="experience__skill-progress" style={{width: "60%"}}></div>
-                  </div>
-                  <small>Intermediário</small>
-                </div>
-              </div>
-              
-              <div className="experience__skill">
-                <div className="experience__skill-icon">
-                  <FaDatabase />
-                </div>
-                <div className="experience__skill-info">
-                  <h4>Power BI</h4>
-                  <div className="experience__skill-bar">
-                    <div className="experience__skill-progress" style={{width: "90%"}}></div>
+                    <div className="experience__skill-progress" style={{width: "85%"}}></div>
                   </div>
                   <small>Avançado</small>
+                </div>
+              </div>
+
+              <div className="experience__skill">
+                <div className="experience__skill-icon">
+                  <FaDocker />
+                </div>
+                <div className="experience__skill-info">
+                  <h4>Docker</h4>
+                  <div className="experience__skill-bar">
+                    <div className="experience__skill-progress" style={{width: "45%"}}></div>
+                  </div>
+                  <small>Básico</small>
                 </div>
               </div>
             </div>

@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import './nav.css'
-import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi'
-import { useTheme } from '../../contexts/ThemeContext'
+import { FiMenu, FiX } from 'react-icons/fi'
 import { useActiveNav } from '../../hooks/useActiveNav'
 import { content } from '../../data/content'
 
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false)
-  const { darkMode, toggleTheme } = useTheme()
   const { activeNav, scrolled, handleNavLinkClick } = useActiveNav()
   
   const toggleMenu = () => {
@@ -46,14 +44,6 @@ const Nav = () => {
         </ul>
         
         <div className="nav__actions">
-          <button 
-            className="theme-toggle" 
-            onClick={toggleTheme}
-            aria-label={`Alternar para tema ${darkMode ? 'claro' : 'escuro'}`}
-          >
-            {darkMode ? <FiSun /> : <FiMoon />}
-          </button>
-          
           <div className="nav__menu-toggle" onClick={toggleMenu}>
             {menuOpen ? <FiX /> : <FiMenu />}
           </div>

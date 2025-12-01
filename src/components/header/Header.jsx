@@ -4,6 +4,7 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import { FaArrowDown } from 'react-icons/fa'
 import { content } from '../../data/content'
+import profileImage from '../../assets/me-about-profile2.png'
 
 const Header = () => {
   const headerTextRef = useRef(null);
@@ -29,6 +30,10 @@ const Header = () => {
           </div>
           
           <HeaderSocials />
+        </div>
+        
+        <div className="header__image">
+          <img src={profileImage} alt={header.name} className="header__profile-img" />
         </div>
         
         <div className="scroll__indicator">

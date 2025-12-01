@@ -2,7 +2,8 @@ import IMG1 from '../assets/portfolio2.png'
 import IMG2 from '../assets/portfolio1.png'
 import IMG4 from '../assets/portfolio5.png'
 import IMG6 from '../assets/portfolio6.png'
-import IMG7 from '../assets/portfolio7.png'
+import IMG7 from '../assets/portfolio6.jpeg'
+import IMG5 from '../assets/portfolio8.png'
 
 // Dados dos projetos do portfólio
 export const projects = [
@@ -10,7 +11,7 @@ export const projects = [
     id: 1,
     image: IMG7,
     title: 'ALG Gestão',
-    description: 'Aplicativo Android completo para gestão de contratos, clientes e equipamentos de locação feito para a empresa ALG Equipamentos.',
+    description: 'Aplicativo Android completo para gestão de contratos, clientes e equipamentos de locação feito para a empresa ALG Equipamentos. Com fluxo de trabalho otimizado, permite cadastro, edição e visualização de contratos, além de gerenciamento de clientes e equipamentos. Desenvolvido em Kotlin com arquitetura MVVM e banco de dados MySQL.',
     github: 'https://github.com/teecoleonard/alg_gestao',
     demo: 'https://github.com/teecoleonard/alg_gestao',
     progress: 100,
@@ -52,7 +53,7 @@ export const projects = [
     progress: 100,
     status: 'Concluído',
     category: 'web',
-    techs: ['HTML/CSS', 'JavaScript', 'PHP']
+    techs: ['React', 'JavaScript', 'Tailwind']
   },
   {
     id: 5,
@@ -65,6 +66,18 @@ export const projects = [
     status: 'Concluído',
     category: 'api',
     techs: ['Python', 'TMDB', 'CSV']
+  },
+  {
+    id: 6,
+    image: IMG5,
+    title: 'ALG Orçamento',
+    description: 'O ALG Orçamento é um site que completa o aplicativo ALG Gestão, permitindo aos usuários criar orçamentos de locação de equipamentos de forma rápida e prática. Desenvolvido com React, TypeScript e Tailwind CSS, o site oferece uma interface intuitiva para geração e envio de orçamentos personalizados por e-mail.',
+    github: 'https://github.com/teecoleonard/alg-orcamento',
+    demo: 'https://github.com/teecoleonard/alg-orcamento',
+    progress: 100,
+    status: 'Concluído',
+    category: 'web',
+    techs: ['React', 'TypeScript', 'Tailwind']
   }
 ];
 

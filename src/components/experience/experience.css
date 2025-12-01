@@ -35,13 +35,14 @@
 
 .experience__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
   width: 100%;
 }
 
 .experience__frontend,
-.experience__backend {
+.experience__backend,
+.experience__databases {
   background: var(--color-bg-variant);
   padding: 2.5rem;
   border-radius: var(--border-radius);
@@ -51,14 +52,16 @@
 }
 
 .experience__frontend:hover,
-.experience__backend:hover {
+.experience__backend:hover,
+.experience__databases:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-5px);
   border-color: var(--color-primary-variant);
 }
 
 .experience__frontend h3,
-.experience__backend h3 {
+.experience__backend h3,
+.experience__databases h3 {
   text-align: center;
   margin-bottom: 2rem;
   color: var(--color-primary);
@@ -67,7 +70,8 @@
 }
 
 .experience__frontend h3::after,
-.experience__backend h3::after {
+.experience__backend h3::after,
+.experience__databases h3::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -163,24 +167,31 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
   .experience__grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 
   .experience__frontend,
-  .experience__backend {
+  .experience__backend,
+  .experience__databases {
     padding: 2rem;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .experience__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
   .experience__content {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 
   .experience__frontend,
-  .experience__backend {
+  .experience__backend,
+  .experience__databases {
     padding: 1.5rem;
   }
 
