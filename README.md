@@ -11,7 +11,8 @@
 
 </div>
 
-![image](https://github.com/user-attachments/assets/54b11fe8-d62a-4329-9db3-18bc99721306)
+<img width="1889" height="892" alt="image" src="https://github.com/user-attachments/assets/204abcf4-a04a-42b2-aa70-6d177a6d7da2" />
+
 
 ## 📋 Sobre o Projeto
 
