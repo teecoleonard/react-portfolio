@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "Portfolio - Full Stack Engineer & QA Specialist",
+    "description": "Building scalable enterprise solutions. Specialized in Full Stack Development, QA Automation, and Software Architecture."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "qa": "QA",
+    "architecture": "Architecture",
+    "projects": "Projects",
+    "roadmap": "Roadmap",
+    "contact": "Contact"
+  },
+  "header": {
+    "greeting": "Hi, I'm",
+    "title": "Full Stack Engineer & QA Specialist",
+    "description": "Building scalable enterprise solutions with performance-driven development. Mobile, Backend, Frontend & Automation.",
+    "scrollText": "SCROLL DOWN"
+  },
+  "cta": {
+    "downloadCV": "Download CV",
+    "contactMe": "Let's Talk"
+  },
+  "about": {
+    "sectionTitle": "Know Me",
+    "title": "About Me",
+    "experienceLabel": "Experience",
+    "experienceValue": "3+ Years",
+    "projectsLabel": "Projects",
+    "projectsValue": "5+ Completed",
+    "biography": {
+      "title": "My Journey",
+      "para1": "I am a Full Stack Developer and QA Engineer focused on building scalable enterprise solutions and automation tools.",
+      "para2": "Currently working as a Quality Analyst at NTT DATA and studying Information Systems. I have experience in mobile development, API architecture, automated testing and data analysis, always aiming to improve system performance and operational efficiency.",
+      "para3": "My goal is to grow as a Senior Software Engineer, focusing on enterprise architecture and intelligent process automation."
+    }
+  },
+  "githubStats": {
+    "title": "GitHub Stats",
+    "repos": "Repositories",
+    "followers": "Followers",
+    "following": "Following",
+    "languages": "Top Languages"
+  },
+  "experience": {
+    "sectionTitle": "My Expertise",
+    "title": "Technologies & Tools",
+    "subtitle": "Technical skills and technologies I work with regularly.",
+    "languages": "Programming Languages",
+    "frontend": "Front-end & Mobile",
+    "backend": "Back-end & Databases",
+    "level_advanced": "Advanced",
+    "level_intermediate": "Intermediate",
+    "level_beginner": "Beginner"
+  },
+  "qa": {
+    "sectionTitle": "Expertise",
+    "title": "Quality Engineering & Automation",
+    "subtitle": "Expertise in quality assurance and automated testing",
+    "skills": [
+      "Automated Web, Mobile and API testing",
+      "Quality strategy and planning",
+      "Selenium, Playwright and Cypress",
+      "Integrated testing in CI/CD pipelines",
+      "REST API validation",
+      "Exploratory and regression testing"
+    ]
+  },
+  "architecture": {
+    "sectionTitle": "Fundamentals",
+    "title": "Software Architecture & Engineering Practices",
+    "subtitle": "Technical foundations for scalable systems",
+    "practices": [
+      "MVVM (Mobile)",
+      "API Design REST",
+      "Microservices concepts",
+      "Multi-tenant systems",
+      "Clean Code & SOLID",
+      "Performance Optimization",
+      "CI/CD awareness"
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Recent Work",
+    "title": "Portfolio",
+    "subtitle": "Explore some of the projects I've developed using the latest web development technologies",
+    "filterAll": "All",
+    "filterWeb": "Web",
+    "filterApp": "Apps",
+    "filterApi": "API",
+    "status_completed": "Completed",
+    "status_inProgress": "In Progress",
+    "businessImpact": "💡 Business Impact",
+    "viewCode": "Code",
+    "viewDemo": "Demo",
+    "categories": [
+      { "id": "all", "label": "All" },
+      { "id": "web", "label": "Web" },
+      { "id": "app", "label": "Apps" },
+      { "id": "api", "label": "API" }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "image": "portfolio6.jpeg",
+        "title": "ALG Gestão",
+        "description": "Android application developed to optimize contract and equipment management for ALG Equipamentos company. The solution centralized operational data, increased contract traceability and significantly reduced registration time through optimized workflow. MVVM architecture with MySQL persistence.",
+        "businessImpact": "Reduction of manual processes | Improved traceability | Operational optimization",
+        "github": "https://github.com/teecoleonard/alg_gestao",
+        "demo": "https://github.com/teecoleonard/alg_gestao",
+        "progress": 100,
+        "status": "Completed",
+        "category": "app",
+        "techs": ["Android", "Kotlin", "MySQL", "MVVM"]
+      },
+      {
+        "id": 2,
+        "image": "portfolio6.png",
+        "title": "PokéApp",
+        "description": "Professional cross-platform mobile application developed as a technical challenge response. Integration with PokéAPI demonstrating expertise in REST API consumption, data handling and responsive UX. Built with Ionic 8 + Angular 19 with automated testing and modern development patterns.",
+        "businessImpact": "Demonstrates scalable architecture | API integration | Production quality",
+        "github": "https://github.com/teecoleonard/pokeapp",
+        "demo": "https://github.com/teecoleonard/pokeapp",
+        "progress": 100,
+        "status": "Completed",
+        "category": "app",
+        "techs": ["Android", "Typescript", "Ionic 8", "Angular 19"]
+      },
+      {
+        "id": 3,
+        "image": "portfolio9.png",
+        "title": "ERP Anduril 1.0",
+        "description": "Local desktop system for complete management of clients, contracts, land and bank slips with CNAB 240 integration. Developed with NestJS, TypeScript and SQLite, the project demonstrates advanced skills in software architecture, financial systems integration and performance-oriented development.",
+        "businessImpact": "Robust local solution | CNAB financial integration | Efficient data management",
+        "github": "https://github.com/teecoleonard/anduril-docs",
+        "demo": "https://teecoleonard.github.io/anduril-docs/",
+        "progress": 100,
+        "status": "Completed",
+        "category": "app",
+        "techs": ["NestJS", "Typescript", "Sqlite"]
+      },
+      {
+        "id": 4,
+        "image": "portfolio1.png",
+        "title": "Psychology Website",
+        "description": "Institutional website for psychology clinic with critical features: automated online scheduling and complete administrative panel. The platform digitized the scheduling process, reducing administrative overhead and improving patient experience.",
+        "businessImpact": "Appointment automation | Reduced administrative overhead | Professional digital presence",
+        "github": "https://github.com/teecoleonard/psicoterapia-site",
+        "demo": "https://psisaramartins.com/",
+        "progress": 100,
+        "status": "Completed",
+        "category": "web",
+        "techs": ["React", "JavaScript", "Tailwind"]
+      },
+      {
+        "id": 5,
+        "image": "portfolio5.png",
+        "title": "TMDB to CSV",
+        "description": "Data extraction and processing pipeline from TMDB (The Movie Database). External API integration for data capture, transformation and CSV persistence. Project demonstrates expertise in data analysis, ETL and processing pipelines.",
+        "businessImpact": "Automated data pipeline | Structured data insights | Facilitated analysis",
+        "github": "https://github.com/teecoleonard/Projeto",
+        "demo": "https://github.com/teecoleonard/Projeto",
+        "progress": 100,
+        "status": "Completed",
+        "category": "api",
+        "techs": ["Python", "TMDB", "CSV"]
+      },
+      {
+        "id": 6,
+        "image": "portfolio8.png",
+        "title": "ALG Budget",
+        "description": "Web platform complementary to ALG Gestão that automates equipment budget generation and sending. Significant reduction in operational time through intelligent forms and email system integration. Intuitive interface developed with React, TypeScript and Tailwind CSS.",
+        "businessImpact": "Budget automation | Reduced operational time | Integration with ALG Gestão",
+        "github": "https://github.com/teecoleonard/alg-orcamento",
+        "demo": "https://github.com/teecoleonard/alg-orcamento",
+        "progress": 100,
+        "status": "Completed",
+        "category": "web",
+        "techs": ["React", "TypeScript", "Tailwind"]
+      }
+    ]
+  },
+  "currentlyBuilding": {
+    "sectionTitle": "Roadmap",
+    "title": "Currently Building",
+    "subtitle": "Projects in development",
+    "projects": [
+      "Multi-company ERP SaaS",
+      "Integrated financial CNAB",
+      "Smart dashboard with local AI",
+      "AI-powered test automation"
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Get In Touch",
+    "title": "Contact",
+    "subtitle": "Get In Contact",
+    "form": {
+      "name": "Your Full Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "email": {
+      "label": "Email",
+      "action": "Send a message"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "action": "Send a message"
+    },
+    "scrollToTop": "Back to Top",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "logo": "LEONARDO HENRIQUE",
+    "backToTop": "Back to Top",
+    "copyright": "All rights reserved.",
+    "year": "2026"
+  },
+  "projects": [
+    {
+      "title": "ALG Gestão",
+      "description": "Android application developed to optimize contract and equipment management for ALG Equipamentos company. The solution centralized operational data, increased contract traceability and significantly reduced registration time through optimized workflow. MVVM architecture with MySQL persistence.",
+      "businessImpact": "Reduction of manual processes | Improved traceability | Operational optimization"
+    },
+    {
+      "title": "PokéApp",
+      "description": "Professional cross-platform mobile application developed as a technical challenge response. Integration with PokéAPI demonstrating expertise in REST API consumption, data handling and responsive UX. Built with Ionic 8 + Angular 19 with automated testing and modern development patterns.",
+      "businessImpact": "Demonstrates scalable architecture | API integration | Production quality"
+    },
+    {
+      "title": "Project Firebase",
+      "description": "User management system with robust Firebase authentication. Implementation of social login, secure password recovery and customizable user profiles. Demonstrates expertise in data security and user experience in critical flows.",
+      "businessImpact": "Authentication security | Cloud scalability | Enhanced user experience"
+    },
+    {
+      "title": "Psychology Website",
+      "description": "Institutional website for psychology office with critical features: automated online scheduling and complete administrative panel. The platform digitized the scheduling process, reducing administrative overhead and improving patient experience.",
+      "businessImpact": "Appointment automation | Reduced administrative overhead | Professional digital presence"
+    },
+    {
+      "title": "TMDB to CSV",
+      "description": "Data extraction and processing pipeline from TMDB (The Movie Database). External API integration for data capture, transformation and CSV persistence. Project demonstrates expertise in data analysis, ETL and processing pipelines.",
+      "businessImpact": "Automated data pipeline | Structured data insights | Facilitated analysis"
+    },
+    {
+      "title": "ALG Budget",
+      "description": "Web platform complementary to ALG Gestão that automates equipment budget generation and sending. Significant reduction in operational time through intelligent forms and email system integration. Intuitive interface developed with React, TypeScript and Tailwind CSS.",
+      "businessImpact": "Budget automation | Reduced operational time | Integration with ALG Gestão"
+    }
+  ]
+}

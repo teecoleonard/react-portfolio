@@ -1,47 +1,107 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
+import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import { FaArrowDown } from 'react-icons/fa'
-import { content } from '../../data/content'
 import profileImage from '../../assets/me-about-profile2.png'
 
 const Header = () => {
-  const headerTextRef = useRef(null);
-  const { header } = content;
+  const { t } = useTranslation()
   
-  useEffect(() => {
-    if (headerTextRef.current) {
-      headerTextRef.current.classList.add('animate-fadeUp');
-    }
-  }, []);
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+        delayChildren: 0.3,
+      },
+    },
+  }
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: 'easeOut' },
+    },
+  }
+
+  const imageVariants = {
+    hidden: { opacity: 0, scale: 0.8, x: 50 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      x: 0,
+      transition: { duration: 1, ease: 'easeOut' },
+    },
+  }
+
+  const scrollVariants = {
+    hidden: { opacity: 0, y: 0 },
+    visible: {
+      opacity: 1,
+      y: [0, 10, 0],
+      transition: {
+        duration: 2,
+        repeat: Infinity,
+        repeatType: 'loop',
+      },
+    },
+  }
   
   return (
     <header>
       <div className="container header__container">
-        <div className="header__content" ref={headerTextRef}>
-          <div className="header__intro">
-            <h1>Olá, sou<br /><span className="text-gradient">{header.name}</span></h1>
-            <h2 className="header__subtitle">{header.title}</h2>
-            <p className="header__description">
-              {header.description}
-            </p>
-            <CTA />
-          </div>
+        <motion.div 
+          className="header__content"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <motion.div className="header__intro" variants={itemVariants}>
+            <motion.h1 variants={itemVariants}>
+              {t('header.greeting')}<br /><span className="text-gradient">Leonardo Henrique</span>
+            </motion.h1>
+            <motion.h2 className="header__subtitle" variants={itemVariants}>
+              {t('header.title')}
+            </motion.h2>
+            <motion.p className="header__description" variants={itemVariants}>
+              {t('header.description')}
+            </motion.p>
+            <motion.div variants={itemVariants}>
+              <CTA />
+            </motion.div>
+          </motion.div>
           
-          <HeaderSocials />
-        </div>
+          <motion.div variants={itemVariants}>
+            <HeaderSocials />
+          </motion.div>
+        </motion.div>
         
-        <div className="header__image">
-          <img src={profileImage} alt={header.name} className="header__profile-img" />
-        </div>
+        <motion.div 
+          className="header__image"
+          variants={imageVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          <img src={profileImage} alt="Leonardo Henrique" className="header__profile-img" />
+        </motion.div>
         
-        <div className="scroll__indicator">
+        <motion.div 
+          className="scroll__indicator"
+          variants={scrollVariants}
+          initial="hidden"
+          animate="visible"
+        >
           <a href="#about">
             <FaArrowDown />
-            <span>{header.scrollText}</span>
+            <span>{t('header.scrollText')}</span>
           </a>
-        </div>
+        </motion.div>
       </div>
       
       <div className="header__shape-1"></div>

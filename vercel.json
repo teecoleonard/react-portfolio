@@ -10,5 +10,11 @@
       "name": "build",
       "production": false
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/react-portfolio/:path*",
+      "destination": "/react-portfolio/index.html"
+    }
   ]
 }

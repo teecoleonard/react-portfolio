@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "title": "Portfólio - Engenheiro Full Stack & Especialista QA",
+    "description": "Construindo soluções escaláveis. Especializado em Desenvolvimento Full Stack, Automação de Testes e Arquitetura de Software."
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "expertise": "Experiência",
+    "qa": "QA",
+    "architecture": "Arquitetura",
+    "projects": "Projetos",
+    "roadmap": "Roadmap",
+    "contact": "Contato"
+  },
+  "header": {
+    "greeting": "Olá, sou",
+    "title": "Engenheiro Full Stack & Especialista QA",
+    "description": "Desenvolvendo soluções corporativas escaláveis com foco em performance. Mobile, Backend, Frontend & Automação.",
+    "scrollText": "ROLAR PARA BAIXO"
+  },
+  "cta": {
+    "downloadCV": "Baixar CV",
+    "contactMe": "Vamos Conversar"
+  },
+  "about": {
+    "sectionTitle": "Conheça",
+    "title": "Sobre Mim",
+    "experienceLabel": "Experiência",
+    "experienceValue": "3+ Anos",
+    "projectsLabel": "Projetos",
+    "projectsValue": "5+ Completados",
+    "biography": {
+      "title": "Minha trajetória",
+      "para1": "Sou um desenvolvedor Full Stack e QA Engineer focado em construir soluções de software escaláveis e ferramentas de automação para empresas.",
+      "para2": "Atualmente trabalho como Analista de Qualidade na NTT DATA e curso Sistemas de Informação. Tenho experiência em desenvolvimento mobile, arquitetura de APIs, testes automatizados e análise de dados, sempre visando melhorar a performance e eficiência operacional dos sistemas.",
+      "para3": "Meu objetivo é crescer como Engenheiro de Software sênior, com foco em arquitetura empresarial e automação inteligente de processos."
+    }
+  },
+  "githubStats": {
+    "title": "Estatísticas do GitHub",
+    "repos": "Repositórios",
+    "followers": "Seguidores",
+    "following": "Seguindo",
+    "languages": "Linguagens Mais Usadas"
+  },
+  "experience": {
+    "sectionTitle": "Minhas Experiências",
+    "title": "Tecnologias & Ferramentas",
+    "subtitle": "Competências técnicas e tecnologias com as quais trabalho regularmente.",
+    "languages": "Linguagens de Programação",
+    "frontend": "Front-end & Mobile",
+    "backend": "Back-end & Databases",
+    "level_advanced": "Avançado",
+    "level_intermediate": "Intermediário",
+    "level_beginner": "Iniciante"
+  },
+  "qa": {
+    "sectionTitle": "QA & Automação",
+    "title": "Garantia de Qualidade & Testes Automatizados",
+    "subtitle": "Expertise em garantia de qualidade e testes automatizados",
+    "skills": [
+      "Testes automatizados Web, Mobile e API",
+      "Estratégia de qualidade e planejamento",
+      "Selenium, Playwright e Cypress",
+      "Testes integrados em pipelines CI/CD",
+      "Validação de APIs REST",
+      "Testes exploratórios e regressão"
+    ]
+  },
+  "architecture": {
+    "sectionTitle": "Fundamentos",
+    "title": "Arquitetura de Software & Design de Sistemas",
+    "subtitle": "Fundamentos técnicos para sistemas escaláveis",
+    "practices": [
+      "MVVM (Mobile)",
+      "API Design REST",
+      "Microserviços & Serverless",
+      "Sistemas Multi-tenant",
+      "Clean Code & SOLID",
+      "Otimização de Performance",
+      "Consciência de CI/CD"
+    ]
+  },
+  "portfolio": {
+    "sectionTitle": "Meus Trabalhos Recentes",
+    "title": "Portfólio",
+    "subtitle": "Conheça alguns dos projetos que desenvolvi utilizando as mais recentes tecnologias de desenvolvimento web",
+    "filterAll": "Todos",
+    "filterWeb": "Web",
+    "filterApp": "Aplicativos",
+    "filterApi": "API",
+    "status_completed": "Concluído",
+    "status_inProgress": "Em Progresso",
+    "businessImpact": "💡 Impacto de Negócio",
+    "viewCode": "Código",
+    "viewDemo": "Demo",
+    "categories": [
+      { "id": "all", "label": "Todos" },
+      { "id": "web", "label": "Web" },
+      { "id": "app", "label": "Aplicativos" },
+      { "id": "api", "label": "API" }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "image": "portfolio6.jpeg",
+        "title": "ALG Gestão",
+        "description": "Aplicativo Android desenvolvido para otimizar o gerenciamento de contratos e equipamentos da empresa ALG Equipamentos. A solução centralizou dados operacionais, aumentou rastreabilidade de contratos e reduziu significativamente o tempo de cadastro através de fluxo de trabalho otimizado. Arquitetura MVVM com persistência MySQL.",
+        "businessImpact": "Redução de processos manuais | Melhoria de rastreabilidade | Otimização operacional",
+        "github": "https://github.com/teecoleonard/alg_gestao",
+        "demo": "https://github.com/teecoleonard/alg_gestao",
+        "progress": 100,
+        "status": "Concluído",
+        "category": "app",
+        "techs": ["Android", "Kotlin", "MySQL", "MVVM"]
+      },
+      {
+        "id": 2,
+        "image": "portfolio6.png",
+        "title": "PokéApp",
+        "description": "Aplicação mobile multiplataforma profissional desenvolvida como resposta a desafio técnico. Integração com PokéAPI demonstrando expertise em consumo de APIs REST, tratamento de dados e UX responsiva. Desenvolvido com Ionic 8 + Angular 19 com testes automatizados e padrões modernos de desenvolvimento.",
+        "businessImpact": "Demonstra arquitetura escalável | Integração de APIs | Qualidade em produção",
+        "github": "https://github.com/teecoleonard/pokeapp",
+        "demo": "https://github.com/teecoleonard/pokeapp",
+        "progress": 100,
+        "status": "Concluído",
+        "category": "app",
+        "techs": ["Android", "Typescript", "Ionic 8", "Angular 19"]
+      },
+      {
+        "id": 3,
+        "image": "portfolio9.png",
+        "title": "ERP Anduril 1.0",
+        "description": "Sistema desktop local para gestão completa de clientes, contratos, terrenos e boletos bancários com integração CNAB 240. Desenvolvido com NestJS, TypeScript e SQLite, o projeto demonstra habilidades avançadas em arquitetura de software, integração de sistemas financeiros e desenvolvimento orientado a performance.",
+        "businessImpact": "Solução local robusta | Integração financeira CNAB | Gestão eficiente de dados",
+        "github": "https://github.com/teecoleonard/anduril-docs",
+        "demo": "https://teecoleonard.github.io/anduril-docs/",
+        "progress": 100,
+        "status": "Concluído",
+        "category": "app",
+        "techs": ["NestJS", "Typescript", "Sqlite"]
+      },
+      {
+        "id": 4,
+        "image": "portfolio1.png",
+        "title": "Psicologia Website",
+        "description": "Website institucional para consultório de psicologia com funcionalidades críticas: agendamento online automatizado e painel administrativo completo. A plataforma digitalizou o processo de agendamento, reduzindo overhead administrativo e melhorando a experiência do paciente.",
+        "businessImpact": "Automação de agendamentos | Redução de overhead administrativo | Presença digital profissional",
+        "github": "https://github.com/teecoleonard/psicoterapia-site",
+        "demo": "https://psisaramartins.com/",
+        "progress": 100,
+        "status": "Concluído",
+        "category": "web",
+        "techs": ["React", "JavaScript", "Tailwind"]
+      },
+      {
+        "id": 5,
+        "image": "portfolio5.png",
+        "title": "TMDB para CSV",
+        "description": "Pipeline de extração o processamento de dados do TMDB (The Movie Database). Integração de API externa para captura, transformação e persistência de dados em CSV. Projeto demonstra expertise em análise de dados, ETL e pipelines de processamento.",
+        "businessImpact": "Pipeline de dados automatizado | Insights de dados estruturados | Análise facilitada",
+        "github": "https://github.com/teecoleonard/Projeto",
+        "demo": "https://github.com/teecoleonard/Projeto",
+        "progress": 100,
+        "status": "Concluído",
+        "category": "api",
+        "techs": ["Python", "TMDB", "CSV"]
+      },
+      {
+        "id": 6,
+        "image": "portfolio8.png",
+        "title": "ALG Orçamento",
+        "description": "Plataforma web complementar ao ALG Gestão que automatiza a geração e envio de orçamentos de equipamentos. Redução significativa de tempo operacional através de formulários inteligentes e integração com sistema de e-mail. Interface intuitiva desenvolvida com React, TypeScript e Tailwind CSS.",
+        "businessImpact": "Automação de orçamentos | Redução de tempo operacional | Integração com ALG Gestão",
+        "github": "https://github.com/teecoleonard/alg-orcamento",
+        "demo": "https://github.com/teecoleonard/alg-orcamento",
+        "progress": 100,
+        "status": "Concluído",
+        "category": "web",
+        "techs": ["React", "TypeScript", "Tailwind"]
+      }
+    ]
+  },
+  "currentlyBuilding": {
+    "sectionTitle": "Roadmap",
+    "title": "Construindo Agora",
+    "subtitle": "Projetos em desenvolvimento",
+    "projects": [
+      "ERP multiempresa SaaS",
+      "CNAB financeiro integrado",
+      "Dashboard inteligente com IA",
+      "Automação de testes com IA"
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Me Conecte",
+    "title": "Contato",
+    "subtitle": "Entre em Contato",
+    "form": {
+      "name": "Seu Nome Completo",
+      "email": "Seu Email",
+      "message": "Sua Mensagem",
+      "submit": "Enviar Mensagem"
+    },
+    "email": {
+      "label": "Email",
+      "action": "Envie uma mensagem"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "action": "Envie uma mensagem"
+    },
+    "scrollToTop": "Voltar ao Topo",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "logo": "LEONARDO HENRIQUE",
+    "backToTop": "Voltar ao topo",
+    "copyright": "Todos os direitos reservados.",
+    "year": "2026"
+  },
+  "projects": [
+    {
+      "title": "ALG Gestão",
+      "description": "Aplicativo Android desenvolvido para otimizar o gerenciamento de contratos e equipamentos da empresa ALG Equipamentos. A solução centralizou dados operacionais, aumentou rastreabilidade de contratos e reduziu significativamente o tempo de cadastro através de fluxo de trabalho otimizado. Arquitetura MVVM com persistência MySQL.",
+      "businessImpact": "Redução de processos manuais | Melhoria de rastreabilidade | Otimização operacional"
+    },
+    {
+      "title": "PokéApp",
+      "description": "Aplicação mobile multiplataforma profissional desenvolvida como resposta a desafio técnico. Integração com PokéAPI demonstrando expertise em consumo de APIs REST, tratamento de dados e UX responsiva. Desenvolvido com Ionic 8 + Angular 19 com testes automatizados e padrões modernos de desenvolvimento.",
+      "businessImpact": "Demonstra arquitetura escalável | Integração de APIs | Qualidade em produção"
+    },
+    {
+      "title": "ERP Anduril 1.0",
+      "description": "Sistema de gerenciamento de usuários com autenticação robusta via Firebase. Implementação de login social, recuperação de senha segura e perfis de usuário personalizáveis. Demonstra expertise em segurança de dados e experiência de usuário em fluxos críticos.",
+      "businessImpact": "Segurança autenticação | Escalabilidade cloud | Experiência de usuário aprimorada"
+    },
+    {
+      "title": "Psicologia Website",
+      "description": "Website institucional para consultório de psicologia com funcionalidades críticas: agendamento online automatizado e painel administrativo completo. A plataforma digitalizou o processo de agendamento, reduzindo overhead administrativo e melhorando a experiência do paciente.",
+      "businessImpact": "Automação de agendamentos | Redução de overhead administrativo | Presença digital profissional"
+    },
+    {
+      "title": "TMDB para CSV",
+      "description": "Pipeline de extração o processamento de dados do TMDB (The Movie Database). Integração de API externa para captura, transformação e persistência de dados em CSV. Projeto demonstra expertise em análise de dados, ETL e pipelines de processamento.",
+      "businessImpact": "Pipeline de dados automatizado | Insights de dados estruturados | Análise facilitada"
+    },
+    {
+      "title": "ALG Orçamento",
+      "description": "Plataforma web complementar ao ALG Gestão que automatiza a geração e envio de orçamentos de equipamentos. Redução significativa de tempo operacional através de formulários inteligentes e integração com sistema de e-mail. Interface intuitiva desenvolvida com React, TypeScript e Tailwind CSS.",
+      "businessImpact": "Automação de orçamentos | Redução de tempo operacional | Integração com ALG Gestão"
+    }
+  ]
+}

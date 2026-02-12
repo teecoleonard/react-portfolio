@@ -1,0 +1,215 @@
+.github-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.github-stats__card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-lighter);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  grid-column: span 2;
+}
+
+.github-stats__card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary);
+}
+
+.github-stats__card h4 {
+  font-size: 0.95rem;
+  color: var(--color-dark);
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.8rem;
+  background: rgba(37, 99, 235, 0.05);
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--color-lighter);
+}
+
+.stat-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--color-light-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Languages List */
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.language-item {
+  display: grid;
+  grid-template-columns: 90px 1fr 40px;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.language-name {
+  font-weight: 600;
+  color: var(--color-dark);
+  font-size: 0.85rem;
+}
+
+.language-bar {
+  height: 6px;
+  background: var(--color-lighter);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.language-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+.language-count {
+  font-size: 0.75rem;
+  color: var(--color-light-dark);
+  text-align: right;
+  font-weight: 600;
+}
+
+/* Skeleton Loading */
+.github-stats__skeleton {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.skeleton-item {
+  height: 200px;
+  background: linear-gradient(
+    90deg,
+    var(--color-lighter),
+    var(--color-lighter),
+    var(--color-lighter)
+  );
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: var(--border-radius);
+  grid-column: span 2;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .github-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .github-stats__card {
+    grid-column: span 1;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+  }
+
+  .language-item {
+    grid-template-columns: 70px 1fr 35px;
+    gap: 0.6rem;
+  }
+
+  .skeleton-item {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .github-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .github-stats__card {
+    padding: 1.2rem;
+    grid-column: span 1;
+  }
+
+  .github-stats__card h4 {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+  }
+
+  .stat {
+    padding: 0.6rem;
+  }
+
+  .stat-value {
+    font-size: 1.2rem;
+  }
+
+  .stat-label {
+    font-size: 0.65rem;
+  }
+
+  .languages-list {
+    gap: 0.6rem;
+  }
+
+  .language-item {
+    grid-template-columns: 60px 1fr 30px;
+    gap: 0.5rem;
+  }
+
+  .language-name {
+    font-size: 0.8rem;
+  }
+
+  .language-count {
+    font-size: 0.7rem;
+  }
+
+  .skeleton-item {
+    height: 150px;
+    grid-column: span 1;
+  }
+}

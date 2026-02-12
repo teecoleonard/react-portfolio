@@ -1,0 +1,112 @@
+.currently-building__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.currently-building__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
+  width: 100%;
+}
+
+.currently-building__project {
+  background: var(--color-bg-alt);
+  border: 2px solid var(--color-primary);
+  padding: 2rem 1.5rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  transition: var(--transition);
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.currently-building__project::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(37, 99, 235, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.currently-building__project:hover::before {
+  left: 100%;
+}
+
+.currently-building__project:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+  background: var(--color-lighter);
+}
+
+.currently-building__icon {
+  font-size: 2.1rem;
+  color: var(--color-primary);
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: float 3s ease-in-out infinite;
+}
+
+.currently-building__project:nth-child(2) .currently-building__icon {
+  animation-delay: 0.2s;
+}
+
+.currently-building__project:nth-child(3) .currently-building__icon {
+  animation-delay: 0.4s;
+}
+
+.currently-building__project:nth-child(4) .currently-building__icon {
+  animation-delay: 0.6s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.currently-building__project h4 {
+  font-size: 1.05rem;
+  color: var(--color-dark);
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .currently-building__grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .currently-building__grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .currently-building__project {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .currently-building__icon {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .currently-building__project h4 {
+    font-size: 1rem;
+  }
+}

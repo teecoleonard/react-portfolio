@@ -1,13 +1,14 @@
 .contact-section {
-  padding: 6rem 0;
+  padding: 4rem 0 2rem;
 }
 
 .contact-container {
   width: 80%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 58% 38%;
-  gap: 4%;
+  grid-template-columns: 1fr 1fr;
+  gap: 3%;
+  max-width: 1200px;
 }
 
 .contact-header {
@@ -144,11 +145,39 @@
   .contact-options-wrapper {
     margin-bottom: 2rem;
   }
+  
+  .contact-section {
+    padding: 3rem 0 1.5rem;
+  }
 }
 
 /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
 @media screen and (max-width: 600px) {
   .contact-container {
     width: var(--container-width-sm);
+    gap: 1rem;
+  }
+  
+  .contact-section {
+    padding: 2rem 0 1rem;
+  }
+  
+  .contact-header {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .contact-option {
+    padding: 1rem;
+  }
+  
+  .contact-scroll-button {
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
   }
 }
