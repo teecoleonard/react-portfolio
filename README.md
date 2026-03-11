@@ -21,85 +21,37 @@
 
 Sou um desenvolvedor full stack e QA engineer com foco em criação de soluções tecnológicas de alta performance. Este portfólio apresenta meus projetos, experiências profissionais e competências técnicas.
 
-### Principais Características
-
-- **Design Responsivo** - Otimizado para todos os dispositivos
-- **Performance Otimizada** - Carregamento rápido e navegação fluida
-- **Tema Escuro** - Padrão moderno com paleta azul, vermelho e preto
-- **Componentes Modernos** - Arquitetura com React 18, Context API e Hooks
-- **Acessibilidade** - WCAG 2.1 compliant com suporte a navegação por teclado
-
 ---
 
 ## Tecnologias
 
 **Front-end**
 - React.js, JavaScript/TypeScript
-- CSS3 com variáveis customizadas
+- Next.js, Tanstack query
+- Tailwind, shadcn
 - React Icons
 
 **Back-end & Banco de Dados**
-- Node.js, RESTful APIs
-- MySQL, MongoDB, Firebase
+- Java, Node.js, RESTful APIs
+- Spring boot, JWT, Nest.js
+- MySQL, MongoDB, Firebase, PhpMyAdmin
 
 **Ferramentas & DevOps**
-- Docker, Git
+- Docker, Git, Nginx, P2M
 - Postman, Swagger
-- GitHub Pages
+- GitHub Pages/Action
 
 **Mobile**
 - Android Studio, Ionic
 - Flutter, Kotlin
 
 **Qualidade & Automação**
-- Selenium, Playwright, Cypress
+- Selenium, Playwright, Cypress, Ruby test
 - Testes automatizados
 
 **Data & Analytics**
 - Python, Pandas
 - Power BI, Databricks
-
----
-
-## Estrutura do Projeto
-
-```
-src/
-├── components/          # Componentes React reutilizáveis
-│   ├── header/         # Hero section
-│   ├── about/          # Apresentação pessoal
-│   ├── experience/     # Expertise técnica
-│   ├── portfolio/      # Galeria de projetos
-│   ├── contact/        # Formulário de contato
-│   └── nav/            # Navegação principal
-├── contexts/           # Estado global (Theme)
-├── hooks/              # Custom hooks
-├── data/               # Conteúdo centralizado
-├── assets/             # Imagens e recursos
-└── index.css           # Estilos globais
-```
-
-## Projetos Destacados
-
-Acesse meu portfólio para ver uma coleção completa de projetos em desenvolvimento web, mobile e análise de dados.
-
----
-
-## Habilidades Principais
-
-**Linguagens:** JavaScript • TypeScript • Python • Java • Kotlin
-
-**Front-end:** React.js • Ionic • Angular
-
-**Back-end:** Node.js • Express
-
-**Bancos de Dados:** MySQL • MongoDB • Firebase
-
-**Automação:** Selenium • Playwright • Cypress
-
-**Data Analytics:** Pandas • Power BI • Databricks
-
-**DevOps:** Docker • Git
 
 ---
 
