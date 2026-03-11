@@ -6,11 +6,12 @@
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
-<img width="1889" height="892" alt="image" src="https://github.com/user-attachments/assets/204abcf4-a04a-42b2-aa70-6d177a6d7da2" />
+<img width="1889" height="892" alt="image" src="https://github.com/user-attachments/assets/ec99cba8-2ea4-465d-9044-4f5e4cdec89e" />
+
 
 **Portfólio profissional moderno | Full Stack Developer | QA Engineer**
 
-[🌐 Visite o Site](https://teecoleonard.github.io/react-portfolio/) • [📧 Entre em Contato](#entre-em-contato)
+[Visite o Site](https://teecoleonard.github.io/react-portfolio/) • [Entre em Contato](#entre-em-contato)
 
 </div>
 
@@ -106,10 +107,10 @@ Acesse meu portfólio para ver uma coleção completa de projetos em desenvolvim
 
 Está interessado em colaborar? Vamos conversar!
 
-- 📧 **Email:** [leonardo4q@gmail.com](mailto:leonardo4q@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/leonardohenriquedejesussilva/](https://www.linkedin.com/in/leonardohenriquedejesussilva/)
-- 🐙 **GitHub:** [github.com/teecoleonard](https://github.com/teecoleonard)
-- 🌐 **Portfólio:** [teecoleonard.github.io/react-portfolio](https://teecoleonard.github.io/react-portfolio/)
+- **Email:** [leonardo4q@gmail.com](mailto:leonardo4q@gmail.com)
+- **LinkedIn:** [linkedin.com/in/leonardohenriquedejesussilva/](https://www.linkedin.com/in/leonardohenriquedejesussilva/)
+- **GitHub:** [github.com/teecoleonard](https://github.com/teecoleonard)
+- **Portfólio:** [teecoleonard.github.io/react-portfolio](https://teecoleonard.github.io/react-portfolio/)
 
 ---
 
