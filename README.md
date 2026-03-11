@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-Em%20Produção-green?style=flat-square)](https://teecoleonard.github.io/react-portfolio/)
+[![Status](https://img.shields.io/badge/status-Concluído-green?style=flat-square)](https://teecoleonard.github.io/react-portfolio/)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
 
