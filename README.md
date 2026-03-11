@@ -1,4 +1,4 @@
-# Leonardo Henrique - Portfólio Profissional
+<h1 align="center" style="font-weight: bold">Leonardo Henrique - Portfólio Profissional</h1>
 
 <div align="center">
 
