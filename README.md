@@ -25,33 +25,36 @@ Sou um desenvolvedor full stack e QA engineer com foco em criação de soluçõe
 
 ## Tecnologias
 
-**Front-end**
-- React.js, JavaScript/TypeScript
-- Next.js, Tanstack query
-- Tailwind, shadcn
-- React Icons
+### **Front-end**
+- React.js, JavaScript, TypeScript  
+- Next.js, TanStack Query  
+- Tailwind CSS, shadcn/ui  
+- React Icons  
 
-**Back-end & Banco de Dados**
-- Java, Node.js, RESTful APIs
-- Spring boot, JWT, Nest.js
-- MySQL, MongoDB, Firebase, PhpMyAdmin
+### **Back-end & Banco de Dados**
+- Java, Node.js  
+- RESTful APIs, JWT  
+- Spring Boot, NestJS  
+- MySQL, MongoDB, Firebase  
+- phpMyAdmin  
 
-**Ferramentas & DevOps**
-- Docker, Git, Nginx, P2M
-- Postman, Swagger
-- GitHub Pages/Action
+### **Ferramentas & DevOps**
+- Docker, Git, Nginx, PM2  
+- Postman, Swagger  
+- GitHub Actions, GitHub Pages  
 
-**Mobile**
-- Android Studio, Ionic
-- Flutter, Kotlin
+### **Mobile**
+- Android Studio (Java & Kotlin)  
+- Ionic, Flutter  
 
-**Qualidade & Automação**
-- Selenium, Playwright, Cypress, Ruby test
-- Testes automatizados
+### **Qualidade & Automação**
+- Selenium, Playwright, Cypress  
+- Testes automatizados (Web, API, Mobile)  
+- Ruby (testes)  
 
-**Data & Analytics**
-- Python, Pandas
-- Power BI, Databricks
+### **Data & Analytics**
+- Python, Pandas  
+- Power BI, Databricks 
 
 ---
 
