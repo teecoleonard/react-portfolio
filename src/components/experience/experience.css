@@ -35,7 +35,7 @@
 
 .experience__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   width: 100%;
 }
@@ -156,6 +156,39 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.experience__area {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.experience__area > .experience__skill-icon {
+  margin: 0 auto 0.8rem;
+}
+
+.experience__description {
+  color: var(--color-light-dark);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.experience__techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+}
+
+.experience__techs li {
+  background: var(--color-lighter);
+  color: var(--color-dark);
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--border-radius-sm);
+  font-size: 0.75rem;
+  overflow-wrap: anywhere;
 }
 
 /* MEDIA QUERIES */

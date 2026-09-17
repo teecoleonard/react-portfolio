@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Portfolio - Full Stack Engineer & QA Specialist",
-    "description": "Building scalable enterprise solutions. Specialized in Full Stack Development, QA Automation, and Software Architecture."
+    "title": "Portfolio - Software Engineer | QA Engineer | Automation | AI",
+    "description": "Leonardo Henrique: software engineering, QA and automation with Java and Selenium, APIs, Salesforce, Full Stack development, and AI and LLM solutions."
   },
   "nav": {
     "home": "Home",
@@ -15,8 +15,8 @@
   },
   "header": {
     "greeting": "Hi, I'm",
-    "title": "Full Stack Engineer & QA Specialist",
-    "description": "Building scalable enterprise solutions with performance-driven development. Mobile, Backend, Frontend & Automation.",
+    "title": "Software Engineer | QA Engineer | Automation | AI",
+    "description": "I combine software engineering, QA and automation to build reliable applications. I work with Java and Selenium, APIs, Salesforce and Full Stack development, as well as AI and LLM solutions.",
     "scrollText": "SCROLL DOWN"
   },
   "cta": {
@@ -27,14 +27,14 @@
     "sectionTitle": "Know Me",
     "title": "About Me",
     "experienceLabel": "Experience",
-    "experienceValue": "3+ Years",
+    "experienceValue": "5+ Years",
     "projectsLabel": "Projects",
     "projectsValue": "5+ Completed",
     "biography": {
       "title": "My Journey",
-      "para1": "I am a Full Stack Developer and QA Engineer focused on building scalable enterprise solutions and automation tools.",
-      "para2": "Currently working as a Quality Analyst at NTT DATA and studying Information Systems. I have experience in mobile development, API architecture, automated testing and data analysis, always aiming to improve system performance and operational efficiency.",
-      "para3": "My goal is to grow as a Senior Software Engineer, focusing on enterprise architecture and intelligent process automation."
+      "para1": "I am a Software Engineer and QA Engineer with experience in Full Stack development, test automation, APIs, data and systems integration. I currently work as a Quality Analyst at NTT DATA, working with Salesforce, Java, Selenium, REST APIs and process automation.",
+      "para2": "I have experience developing web and mobile applications, designing APIs, automating tests, working with databases, and building solutions with AI and LLMs. I also develop independent projects, applying architecture practices, CI/CD, automated testing and software quality.",
+      "para3": "My goal is to grow as a Software Engineer, deepening my work in systems architecture, automation and intelligent solutions to real business problems."
     }
   },
   "githubStats": {
@@ -46,139 +46,321 @@
   },
   "experience": {
     "sectionTitle": "My Expertise",
-    "title": "Technologies & Tools",
-    "subtitle": "Technical skills and technologies I work with regularly.",
+    "title": "Technologies & Expertise",
+    "subtitle": "Software engineering applied to management systems, quality, automation, offline applications and AI integrations.",
     "languages": "Programming Languages",
     "frontend": "Front-end & Mobile",
     "backend": "Back-end & Databases",
     "level_advanced": "Advanced",
     "level_intermediate": "Intermediate",
-    "level_beginner": "Beginner"
+    "level_beginner": "Beginner",
+    "areas": [
+      {
+        "id": "crm",
+        "techs": [
+          "Java / Spring Boot",
+          "React / Next.js",
+          "MySQL",
+          "Docker",
+          "REST APIs"
+        ],
+        "title": "CRM and Management Systems",
+        "description": "Platforms built with Java/Spring Boot, React/Next.js, MySQL and Docker, with modular architecture, data isolation, REST APIs and quality control."
+      },
+      {
+        "id": "architecture",
+        "techs": [
+          "DDD",
+          "SDD",
+          "ADRs",
+          "Quality gates",
+          "Sonar",
+          "CI/CD"
+        ],
+        "title": "Architecture and Engineering",
+        "description": "DDD, Spec-Driven Development, ADRs, acceptance criteria and traceability, integrating testing, coverage, static analysis and security through quality gates."
+      },
+      {
+        "id": "qa",
+        "techs": [
+          "Playwright",
+          "Vitest",
+          "Selenium",
+          "API Testing",
+          "Supertest",
+          "Testcontainers"
+        ],
+        "title": "Automation and QA",
+        "description": "Testing with Playwright, Vitest, Selenium and APIs to validate business rules and critical workflows, supported by automated execution strategies."
+      },
+      {
+        "id": "mobile",
+        "techs": [
+          "Kotlin",
+          "React",
+          "TypeScript",
+          "Room",
+          "IndexedDB",
+          "PWA"
+        ],
+        "title": "Mobile and Local-First Applications",
+        "description": "Development with Kotlin, React, TypeScript, IndexedDB and PWAs, prioritizing local persistence, offline operation and mobile workflow testing."
+      },
+      {
+        "id": "ai",
+        "techs": [
+          "Salesforce",
+          "LWC",
+          "Node.js",
+          "LLMs",
+          "REST APIs"
+        ],
+        "title": "AI and Salesforce",
+        "description": "Solutions using Salesforce, LWC, APIs and LLM integrations, applying AI to automation and business features."
+      },
+      {
+        "id": "erp",
+        "techs": [
+          "Electron",
+          "React / TypeScript",
+          "NestJS",
+          "SQLite",
+          "CNAB 240"
+        ],
+        "title": "ERP and Financial Processing",
+        "description": "Systems for business management, contracts, documents, bank payment slips and CNAB processing, with routine automation and systems integration."
+      }
+    ]
   },
   "qa": {
-    "sectionTitle": "Expertise",
+    "sectionTitle": "QA & Automation",
     "title": "Quality Engineering & Automation",
-    "subtitle": "Expertise in quality assurance and automated testing",
+    "subtitle": "Validation of business rules and critical workflows, with testing strategies and automated execution.",
     "skills": [
-      "Automated Web, Mobile and API testing",
-      "Quality strategy and planning",
-      "Selenium, Playwright and Cypress",
-      "Integrated testing in CI/CD pipelines",
-      "REST API validation",
-      "Exploratory and regression testing"
+      "Web and E2E testing with Playwright",
+      "Unit testing with Vitest",
+      "Automation with Java and Selenium",
+      "API testing with Supertest and Testcontainers",
+      "Business rule and mobile workflow validation",
+      "Automated execution in CI/CD pipelines"
     ]
   },
   "architecture": {
     "sectionTitle": "Fundamentals",
-    "title": "Software Architecture & Engineering Practices",
-    "subtitle": "Technical foundations for scalable systems",
+    "title": "Software Architecture & System Design",
+    "subtitle": "Documented decisions, testable specifications and quality integrated throughout the development lifecycle.",
     "practices": [
-      "MVVM (Mobile)",
-      "API Design REST",
-      "Microservices concepts",
-      "Multi-tenant systems",
-      "Clean Code & SOLID",
-      "Performance Optimization",
-      "CI/CD awareness"
+      "Domain-Driven Design (DDD)",
+      "Spec-Driven Development (SDD)",
+      "Architecture Decision Records (ADRs)",
+      "Acceptance criteria and traceability",
+      "Quality gates: testing, coverage, static analysis and security",
+      "Modular architecture, multi-tenancy and data isolation",
+      "Continuous integration and delivery (CI/CD)"
     ]
   },
   "portfolio": {
-    "sectionTitle": "Recent Work",
-    "title": "Portfolio",
-    "subtitle": "Explore some of the projects I've developed using the latest web development technologies",
+    "sectionTitle": "Development in Practice",
+    "title": "Featured Projects",
+    "subtitle": "Six projects connecting architecture, business rules, integrations and software quality.",
     "filterAll": "All",
     "filterWeb": "Web",
     "filterApp": "Apps",
     "filterApi": "API",
     "status_completed": "Completed",
     "status_inProgress": "In Progress",
-    "businessImpact": "💡 Business Impact",
+    "businessImpact": "Business application",
     "viewCode": "Code",
     "viewDemo": "Demo",
     "categories": [
-      { "id": "all", "label": "All" },
-      { "id": "web", "label": "Web" },
-      { "id": "app", "label": "Apps" },
-      { "id": "api", "label": "API" }
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "web",
+        "label": "Web"
+      },
+      {
+        "id": "app",
+        "label": "Apps"
+      },
+      {
+        "id": "api",
+        "label": "API"
+      }
     ],
     "projects": [
       {
         "id": 1,
-        "image": "portfolio6.jpeg",
-        "title": "ALG Gestão",
-        "description": "Android application developed to optimize contract and equipment management for ALG Equipamentos company. The solution centralized operational data, increased contract traceability and significantly reduced registration time through optimized workflow. MVVM architecture with MySQL persistence.",
-        "businessImpact": "Reduction of manual processes | Improved traceability | Operational optimization",
-        "github": "https://github.com/teecoleonard/alg_gestao",
-        "demo": "https://github.com/teecoleonard/alg_gestao",
-        "progress": 100,
-        "status": "Completed",
         "category": "app",
-        "techs": ["Android", "Kotlin", "MySQL", "MVVM"]
-      },
-      {
-        "id": 2,
-        "image": "portfolio6.png",
-        "title": "PokéApp",
-        "description": "Professional cross-platform mobile application developed as a technical challenge response. Integration with PokéAPI demonstrating expertise in REST API consumption, data handling and responsive UX. Built with Ionic 8 + Angular 19 with automated testing and modern development patterns.",
-        "businessImpact": "Demonstrates scalable architecture | API integration | Production quality",
-        "github": "https://github.com/teecoleonard/pokeapp",
-        "demo": "https://github.com/teecoleonard/pokeapp",
-        "progress": 100,
-        "status": "Completed",
-        "category": "app",
-        "techs": ["Android", "Typescript", "Ionic 8", "Angular 19"]
+        "title": "ALG Gestão — Rental Management System",
+        "description": "Native Android app built with Kotlin and MVVM/Repository, offline operation with Room, and a REST API using Node.js/Express, Sequelize and MySQL to manage the rental lifecycle.",
+        "highlights": [
+          "Client, contract, equipment and return management, with JWT authentication, access roles and database isolation.",
+          "PDF generation and signature capture within contract workflows.",
+          "Financial dashboards and backup routines.",
+          "Unit and instrumented testing strategy."
+        ],
+        "businessImpact": "Centralized rental operations and continuity of work offline.",
+        "sourceNote": "Application with a public repository",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/teecoleonard/alg_gestao",
+            "kind": "github"
+          }
+        ],
+        "techs": [
+          "Kotlin",
+          "MVVM / Repository",
+          "Room",
+          "Node.js / Express",
+          "Sequelize",
+          "MySQL",
+          "JWT"
+        ]
       },
       {
         "id": 3,
-        "image": "portfolio9.png",
-        "title": "ERP Anduril 1.0",
-        "description": "Local desktop system for complete management of clients, contracts, land and bank slips with CNAB 240 integration. Developed with NestJS, TypeScript and SQLite, the project demonstrates advanced skills in software architecture, financial systems integration and performance-oriented development.",
-        "businessImpact": "Robust local solution | CNAB financial integration | Efficient data management",
-        "github": "https://github.com/teecoleonard/anduril-docs",
-        "demo": "https://teecoleonard.github.io/anduril-docs/",
-        "progress": 100,
-        "status": "Completed",
         "category": "app",
-        "techs": ["NestJS", "Typescript", "Sqlite"]
+        "title": "ERP Anduril — Financial Management",
+        "description": "Desktop system built with Electron, React, TypeScript and NestJS to manage clients, contracts, land, documents and bank payment slips.",
+        "highlights": [
+          "SQLite with transactions and automatic backups for local operation.",
+          "CNAB 240 banking integration with remittance generation and return-file processing.",
+          "Excel data export and financial routine automation.",
+          "Multi-layer validation, structured logging and global error handling."
+        ],
+        "businessImpact": "Organized financial management and integration between administrative and banking workflows.",
+        "sourceNote": "Private source code · public documentation",
+        "links": [
+          {
+            "label": "Docs repository",
+            "url": "https://github.com/teecoleonard/anduril-docs",
+            "kind": "github"
+          },
+          {
+            "label": "Documentation",
+            "url": "https://teecoleonard.github.io/anduril-docs/",
+            "kind": "external"
+          }
+        ],
+        "techs": [
+          "Electron",
+          "React",
+          "TypeScript",
+          "NestJS",
+          "SQLite",
+          "CNAB 240"
+        ]
       },
       {
-        "id": 4,
-        "image": "portfolio1.png",
-        "title": "Psychology Website",
-        "description": "Institutional website for psychology clinic with critical features: automated online scheduling and complete administrative panel. The platform digitized the scheduling process, reducing administrative overhead and improving patient experience.",
-        "businessImpact": "Appointment automation | Reduced administrative overhead | Professional digital presence",
-        "github": "https://github.com/teecoleonard/psicoterapia-site",
-        "demo": "https://psisaramartins.com/",
-        "progress": 100,
-        "status": "Completed",
+        "id": 7,
         "category": "web",
-        "techs": ["React", "JavaScript", "Tailwind"]
+        "title": "CRM SaaS — Sales Management Platform",
+        "description": "Multi-tenant platform built with Java 21, Spring Boot, Next.js, MySQL and Docker, with data isolation and separate API, frontend and control plane.",
+        "highlights": [
+          "Management of leads, companies, opportunities, visits and the sales pipeline.",
+          "Flyway migrations and schema validation with ddl-auto=validate.",
+          "Quality gates with testing, coverage, Sonar and CI/CD.",
+          "DDD, ADRs, Spec-Driven Development and testable acceptance criteria to guide system evolution."
+        ],
+        "businessImpact": "Sales management per organization, with data isolation and traceable technical decisions.",
+        "sourceNote": "Private repository",
+        "links": [],
+        "techs": [
+          "Java 21",
+          "Spring Boot",
+          "Next.js",
+          "MySQL",
+          "Docker",
+          "Flyway",
+          "Sonar"
+        ]
       },
       {
-        "id": 5,
-        "image": "portfolio5.png",
-        "title": "TMDB to CSV",
-        "description": "Data extraction and processing pipeline from TMDB (The Movie Database). External API integration for data capture, transformation and CSV persistence. Project demonstrates expertise in data analysis, ETL and processing pipelines.",
-        "businessImpact": "Automated data pipeline | Structured data insights | Facilitated analysis",
-        "github": "https://github.com/teecoleonard/Projeto",
-        "demo": "https://github.com/teecoleonard/Projeto",
-        "progress": 100,
-        "status": "Completed",
+        "id": 8,
+        "category": "app",
+        "title": "Real-Time Services Platform",
+        "description": "Platform under development with a NestJS, PostgreSQL, Redis and Socket.IO backend, integrated with a React Native/Expo mobile application.",
+        "highlights": [
+          "Geolocation, professional matching and notifications to connect customers with service providers.",
+          "Chat and live tracking throughout service delivery.",
+          "Redis for geolocation, locks and asynchronous processing.",
+          "Unit, integration and acceptance tests with Vitest, Supertest and Testcontainers."
+        ],
+        "businessImpact": "Connecting customers and professionals with real-time service tracking.",
+        "sourceNote": "Private repository · under development",
+        "links": [],
+        "techs": [
+          "NestJS",
+          "PostgreSQL",
+          "Redis",
+          "Socket.IO",
+          "React Native / Expo",
+          "Vitest",
+          "Supertest",
+          "Testcontainers"
+        ]
+      },
+      {
+        "id": 9,
         "category": "api",
-        "techs": ["Python", "TMDB", "CSV"]
+        "title": "AI and Salesforce Applications",
+        "description": "Node.js backend and Salesforce/LWC components to connect applications, APIs, enterprise data and AI services.",
+        "highlights": [
+          "Backend integration between applications and AI services.",
+          "LWC components integrated with the Salesforce ecosystem.",
+          "Exploring LLMs in automation workflows and enterprise systems.",
+          "Development focused on integrating APIs, data and business features."
+        ],
+        "businessImpact": "Applying AI to business workflows and automation within Salesforce.",
+        "sourceNote": "Public backend and LWC repositories",
+        "links": [
+          {
+            "label": "Node.js backend",
+            "url": "https://github.com/teecoleonard/salesforce-llm-backend",
+            "kind": "github"
+          },
+          {
+            "label": "Salesforce / LWC",
+            "url": "https://github.com/teecoleonard/lwc-salesforce-ia",
+            "kind": "github"
+          }
+        ],
+        "techs": [
+          "Node.js",
+          "Salesforce",
+          "LWC",
+          "REST APIs",
+          "LLMs"
+        ]
       },
       {
-        "id": 6,
-        "image": "portfolio8.png",
-        "title": "ALG Budget",
-        "description": "Web platform complementary to ALG Gestão that automates equipment budget generation and sending. Significant reduction in operational time through intelligent forms and email system integration. Intuitive interface developed with React, TypeScript and Tailwind CSS.",
-        "businessImpact": "Budget automation | Reduced operational time | Integration with ALG Gestão",
-        "github": "https://github.com/teecoleonard/alg-orcamento",
-        "demo": "https://github.com/teecoleonard/alg-orcamento",
-        "progress": 100,
-        "status": "Completed",
+        "id": 10,
         "category": "web",
-        "techs": ["React", "TypeScript", "Tailwind"]
+        "title": "Psicoterapia Site — Scheduling Platform for a Psychology Practice",
+        "description": "Institutional website for a psychology practice built with React, JavaScript and Tailwind CSS, featuring automated online scheduling and a full administrative dashboard. The platform digitized the appointment process, reducing administrative overhead and improving the patient experience.",
+        "highlights": [
+          "Automated online scheduling that replaced manual, phone-based booking.",
+          "Full administrative dashboard for managing appointments and practice operations.",
+          "Responsive, professional institutional design built with Tailwind CSS."
+        ],
+        "businessImpact": "Automated scheduling and reduced administrative overhead behind a professional digital presence.",
+        "sourceNote": "Public repository",
+        "links": [
+          {
+            "label": "Repository",
+            "url": "https://github.com/teecoleonard/psicoterapia-site",
+            "kind": "github"
+          }
+        ],
+        "techs": [
+          "React",
+          "JavaScript",
+          "Tailwind CSS"
+        ]
       }
     ]
   },
@@ -223,34 +405,29 @@
   },
   "projects": [
     {
-      "title": "ALG Gestão",
-      "description": "Android application developed to optimize contract and equipment management for ALG Equipamentos company. The solution centralized operational data, increased contract traceability and significantly reduced registration time through optimized workflow. MVVM architecture with MySQL persistence.",
-      "businessImpact": "Reduction of manual processes | Improved traceability | Operational optimization"
+      "title": "ALG Gestão — Rental Management System",
+      "description": "Native Android app built with Kotlin and MVVM/Repository, offline operation with Room, and a REST API using Node.js/Express, Sequelize and MySQL to manage the rental lifecycle.",
+      "businessImpact": "Centralized rental operations and continuity of work offline."
     },
     {
-      "title": "PokéApp",
-      "description": "Professional cross-platform mobile application developed as a technical challenge response. Integration with PokéAPI demonstrating expertise in REST API consumption, data handling and responsive UX. Built with Ionic 8 + Angular 19 with automated testing and modern development patterns.",
-      "businessImpact": "Demonstrates scalable architecture | API integration | Production quality"
+      "title": "ERP Anduril — Financial Management",
+      "description": "Desktop system built with Electron, React, TypeScript and NestJS to manage clients, contracts, land, documents and bank payment slips.",
+      "businessImpact": "Organized financial management and integration between administrative and banking workflows."
     },
     {
-      "title": "Project Firebase",
-      "description": "User management system with robust Firebase authentication. Implementation of social login, secure password recovery and customizable user profiles. Demonstrates expertise in data security and user experience in critical flows.",
-      "businessImpact": "Authentication security | Cloud scalability | Enhanced user experience"
+      "title": "CRM SaaS — Sales Management Platform",
+      "description": "Multi-tenant platform built with Java 21, Spring Boot, Next.js, MySQL and Docker, with data isolation and separate API, frontend and control plane.",
+      "businessImpact": "Sales management per organization, with data isolation and traceable technical decisions."
     },
     {
-      "title": "Psychology Website",
-      "description": "Institutional website for psychology office with critical features: automated online scheduling and complete administrative panel. The platform digitized the scheduling process, reducing administrative overhead and improving patient experience.",
-      "businessImpact": "Appointment automation | Reduced administrative overhead | Professional digital presence"
+      "title": "Real-Time Services Platform",
+      "description": "Platform under development with a NestJS, PostgreSQL, Redis and Socket.IO backend, integrated with a React Native/Expo mobile application.",
+      "businessImpact": "Connecting customers and professionals with real-time service tracking."
     },
     {
-      "title": "TMDB to CSV",
-      "description": "Data extraction and processing pipeline from TMDB (The Movie Database). External API integration for data capture, transformation and CSV persistence. Project demonstrates expertise in data analysis, ETL and processing pipelines.",
-      "businessImpact": "Automated data pipeline | Structured data insights | Facilitated analysis"
-    },
-    {
-      "title": "ALG Budget",
-      "description": "Web platform complementary to ALG Gestão that automates equipment budget generation and sending. Significant reduction in operational time through intelligent forms and email system integration. Intuitive interface developed with React, TypeScript and Tailwind CSS.",
-      "businessImpact": "Budget automation | Reduced operational time | Integration with ALG Gestão"
+      "title": "AI and Salesforce Applications",
+      "description": "Node.js backend and Salesforce/LWC components to connect applications, APIs, enterprise data and AI services.",
+      "businessImpact": "Applying AI to business workflows and automation within Salesforce."
     }
   ]
 }

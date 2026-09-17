@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Portfólio - Engenheiro Full Stack & Especialista QA",
-    "description": "Construindo soluções escaláveis. Especializado em Desenvolvimento Full Stack, Automação de Testes e Arquitetura de Software."
+    "title": "Portfólio - Software Engineer | QA Engineer | Automation | AI",
+    "description": "Leonardo Henrique: engenharia de software, QA e automação com Java e Selenium, APIs, Salesforce, desenvolvimento Full Stack e soluções com IA e LLMs."
   },
   "nav": {
     "home": "Início",
@@ -15,8 +15,8 @@
   },
   "header": {
     "greeting": "Olá, sou",
-    "title": "Engenheiro Full Stack & Especialista QA",
-    "description": "Desenvolvendo soluções corporativas escaláveis com foco em performance. Mobile, Backend, Frontend & Automação.",
+    "title": "Software Engineer | QA Engineer | Automation | AI",
+    "description": "Integro engenharia de software, QA e automação para construir aplicações confiáveis. Trabalho com Java e Selenium, APIs, Salesforce e desenvolvimento Full Stack, além de soluções com IA e LLMs.",
     "scrollText": "ROLAR PARA BAIXO"
   },
   "cta": {
@@ -27,14 +27,14 @@
     "sectionTitle": "Conheça",
     "title": "Sobre Mim",
     "experienceLabel": "Experiência",
-    "experienceValue": "3+ Anos",
+    "experienceValue": "5+ Anos",
     "projectsLabel": "Projetos",
     "projectsValue": "5+ Completados",
     "biography": {
       "title": "Minha trajetória",
-      "para1": "Sou um desenvolvedor Full Stack e QA Engineer focado em construir soluções de software escaláveis e ferramentas de automação para empresas.",
-      "para2": "Atualmente trabalho como Analista de Qualidade na NTT DATA e curso Sistemas de Informação. Tenho experiência em desenvolvimento mobile, arquitetura de APIs, testes automatizados e análise de dados, sempre visando melhorar a performance e eficiência operacional dos sistemas.",
-      "para3": "Meu objetivo é crescer como Engenheiro de Software sênior, com foco em arquitetura empresarial e automação inteligente de processos."
+      "para1": "Sou Software Engineer e QA Engineer, com experiência em desenvolvimento Full Stack, automação de testes, APIs, dados e integração de sistemas. Atualmente atuo como Analista de Qualidade na NTT DATA, trabalhando com Salesforce, Java, Selenium, APIs REST e automação de processos.",
+      "para2": "Tenho experiência no desenvolvimento de aplicações Web e Mobile, arquitetura de APIs, automação de testes, bancos de dados e soluções envolvendo Inteligência Artificial e LLMs. Também desenvolvo projetos independentes, aplicando práticas de arquitetura, CI/CD, testes automatizados e qualidade de software.",
+      "para3": "Meu objetivo é evoluir como Engenheiro de Software, aprofundando minha atuação em arquitetura de sistemas, automação e soluções inteligentes para problemas reais de negócio."
     }
   },
   "githubStats": {
@@ -46,139 +46,321 @@
   },
   "experience": {
     "sectionTitle": "Minhas Experiências",
-    "title": "Tecnologias & Ferramentas",
-    "subtitle": "Competências técnicas e tecnologias com as quais trabalho regularmente.",
+    "title": "Tecnologias & Competências",
+    "subtitle": "Engenharia de software aplicada a sistemas de gestão, qualidade, automação, aplicações offline e integrações com IA.",
     "languages": "Linguagens de Programação",
     "frontend": "Front-end & Mobile",
     "backend": "Back-end & Databases",
     "level_advanced": "Avançado",
     "level_intermediate": "Intermediário",
-    "level_beginner": "Iniciante"
+    "level_beginner": "Iniciante",
+    "areas": [
+      {
+        "id": "crm",
+        "techs": [
+          "Java / Spring Boot",
+          "React / Next.js",
+          "MySQL",
+          "Docker",
+          "REST APIs"
+        ],
+        "title": "CRM e Sistemas de Gestão",
+        "description": "Plataformas com Java/Spring Boot, React/Next.js, MySQL e Docker, com arquitetura modular, isolamento de dados, APIs REST e controle de qualidade."
+      },
+      {
+        "id": "architecture",
+        "techs": [
+          "DDD",
+          "SDD",
+          "ADRs",
+          "Quality gates",
+          "Sonar",
+          "CI/CD"
+        ],
+        "title": "Arquitetura e Engenharia",
+        "description": "Aplicação de DDD, Spec-Driven Development, ADRs, critérios de aceitação e rastreabilidade, integrando testes, cobertura, análise estática e segurança por meio de quality gates."
+      },
+      {
+        "id": "qa",
+        "techs": [
+          "Playwright",
+          "Vitest",
+          "Selenium",
+          "API Testing",
+          "Supertest",
+          "Testcontainers"
+        ],
+        "title": "Automação e QA",
+        "description": "Testes com Playwright, Vitest, Selenium e APIs para validar regras de negócio e fluxos críticos, com estratégias de execução automatizada."
+      },
+      {
+        "id": "mobile",
+        "techs": [
+          "Kotlin",
+          "React",
+          "TypeScript",
+          "Room",
+          "IndexedDB",
+          "PWA"
+        ],
+        "title": "Aplicações Mobile e Local-First",
+        "description": "Desenvolvimento com Kotlin, React, TypeScript, IndexedDB e PWA, priorizando persistência local, funcionamento offline e testes de fluxos mobile."
+      },
+      {
+        "id": "ai",
+        "techs": [
+          "Salesforce",
+          "LWC",
+          "Node.js",
+          "LLMs",
+          "REST APIs"
+        ],
+        "title": "IA e Salesforce",
+        "description": "Soluções com Salesforce, LWC, APIs e integração com LLMs, aplicando IA em automação e funcionalidades de negócio."
+      },
+      {
+        "id": "erp",
+        "techs": [
+          "Electron",
+          "React / TypeScript",
+          "NestJS",
+          "SQLite",
+          "CNAB 240"
+        ],
+        "title": "ERP e Processamento Financeiro",
+        "description": "Sistemas para gestão, contratos, documentos, boletos e processamento CNAB, com automação de rotinas e integração entre sistemas."
+      }
+    ]
   },
   "qa": {
     "sectionTitle": "QA & Automação",
     "title": "Garantia de Qualidade & Testes Automatizados",
-    "subtitle": "Expertise em garantia de qualidade e testes automatizados",
+    "subtitle": "Validação de regras de negócio e fluxos críticos, com estratégias de testes e execução automatizada.",
     "skills": [
-      "Testes automatizados Web, Mobile e API",
-      "Estratégia de qualidade e planejamento",
-      "Selenium, Playwright e Cypress",
-      "Testes integrados em pipelines CI/CD",
-      "Validação de APIs REST",
-      "Testes exploratórios e regressão"
+      "Testes Web e E2E com Playwright",
+      "Testes de unidade com Vitest",
+      "Automação com Java e Selenium",
+      "Testes de APIs com Supertest e Testcontainers",
+      "Validação de regras de negócio e fluxos mobile",
+      "Execução automatizada em pipelines CI/CD"
     ]
   },
   "architecture": {
     "sectionTitle": "Fundamentos",
     "title": "Arquitetura de Software & Design de Sistemas",
-    "subtitle": "Fundamentos técnicos para sistemas escaláveis",
+    "subtitle": "Decisões documentadas, especificações testáveis e qualidade integrada ao ciclo de desenvolvimento.",
     "practices": [
-      "MVVM (Mobile)",
-      "API Design REST",
-      "Microserviços & Serverless",
-      "Sistemas Multi-tenant",
-      "Clean Code & SOLID",
-      "Otimização de Performance",
-      "Consciência de CI/CD"
+      "Domain-Driven Design (DDD)",
+      "Spec-Driven Development (SDD)",
+      "Registros de decisões de arquitetura (ADRs)",
+      "Critérios de aceitação e rastreabilidade",
+      "Quality gates: testes, cobertura, análise estática e segurança",
+      "Arquitetura modular, multi-tenant e isolamento de dados",
+      "Integração e entrega contínuas (CI/CD)"
     ]
   },
   "portfolio": {
-    "sectionTitle": "Meus Trabalhos Recentes",
-    "title": "Portfólio",
-    "subtitle": "Conheça alguns dos projetos que desenvolvi utilizando as mais recentes tecnologias de desenvolvimento web",
+    "sectionTitle": "Desenvolvimento na Prática",
+    "title": "Projetos em Destaque",
+    "subtitle": "Seis projetos que conectam arquitetura, regras de negócio, integrações e qualidade de software.",
     "filterAll": "Todos",
     "filterWeb": "Web",
     "filterApp": "Aplicativos",
     "filterApi": "API",
     "status_completed": "Concluído",
     "status_inProgress": "Em Progresso",
-    "businessImpact": "💡 Impacto de Negócio",
+    "businessImpact": "Aplicação no negócio",
     "viewCode": "Código",
     "viewDemo": "Demo",
     "categories": [
-      { "id": "all", "label": "Todos" },
-      { "id": "web", "label": "Web" },
-      { "id": "app", "label": "Aplicativos" },
-      { "id": "api", "label": "API" }
+      {
+        "id": "all",
+        "label": "Todos"
+      },
+      {
+        "id": "web",
+        "label": "Web"
+      },
+      {
+        "id": "app",
+        "label": "Aplicativos"
+      },
+      {
+        "id": "api",
+        "label": "API"
+      }
     ],
     "projects": [
       {
         "id": 1,
-        "image": "portfolio6.jpeg",
-        "title": "ALG Gestão",
-        "description": "Aplicativo Android desenvolvido para otimizar o gerenciamento de contratos e equipamentos da empresa ALG Equipamentos. A solução centralizou dados operacionais, aumentou rastreabilidade de contratos e reduziu significativamente o tempo de cadastro através de fluxo de trabalho otimizado. Arquitetura MVVM com persistência MySQL.",
-        "businessImpact": "Redução de processos manuais | Melhoria de rastreabilidade | Otimização operacional",
-        "github": "https://github.com/teecoleonard/alg_gestao",
-        "demo": "https://github.com/teecoleonard/alg_gestao",
-        "progress": 100,
-        "status": "Concluído",
         "category": "app",
-        "techs": ["Android", "Kotlin", "MySQL", "MVVM"]
-      },
-      {
-        "id": 2,
-        "image": "portfolio6.png",
-        "title": "PokéApp",
-        "description": "Aplicação mobile multiplataforma profissional desenvolvida como resposta a desafio técnico. Integração com PokéAPI demonstrando expertise em consumo de APIs REST, tratamento de dados e UX responsiva. Desenvolvido com Ionic 8 + Angular 19 com testes automatizados e padrões modernos de desenvolvimento.",
-        "businessImpact": "Demonstra arquitetura escalável | Integração de APIs | Qualidade em produção",
-        "github": "https://github.com/teecoleonard/pokeapp",
-        "demo": "https://github.com/teecoleonard/pokeapp",
-        "progress": 100,
-        "status": "Concluído",
-        "category": "app",
-        "techs": ["Android", "Typescript", "Ionic 8", "Angular 19"]
+        "title": "ALG Gestão — Sistema de gestão de locação",
+        "description": "Android nativo em Kotlin com MVVM/Repository, operação offline com Room e API REST em Node.js/Express, Sequelize e MySQL para gerenciar o ciclo de locação.",
+        "highlights": [
+          "Gestão de clientes, contratos, equipamentos e devoluções, com autenticação JWT, perfis de acesso e isolamento de banco.",
+          "Geração de PDFs e captura de assinaturas nos fluxos de contratos.",
+          "Dashboards financeiros e rotinas de backup.",
+          "Estratégia de testes unitários e instrumentados."
+        ],
+        "businessImpact": "Centralização da operação de locação e continuidade do trabalho offline.",
+        "sourceNote": "Aplicativo com repositório público",
+        "links": [
+          {
+            "label": "Repositório",
+            "url": "https://github.com/teecoleonard/alg_gestao",
+            "kind": "github"
+          }
+        ],
+        "techs": [
+          "Kotlin",
+          "MVVM / Repository",
+          "Room",
+          "Node.js / Express",
+          "Sequelize",
+          "MySQL",
+          "JWT"
+        ]
       },
       {
         "id": 3,
-        "image": "portfolio9.png",
-        "title": "ERP Anduril 1.0",
-        "description": "Sistema desktop local para gestão completa de clientes, contratos, terrenos e boletos bancários com integração CNAB 240. Desenvolvido com NestJS, TypeScript e SQLite, o projeto demonstra habilidades avançadas em arquitetura de software, integração de sistemas financeiros e desenvolvimento orientado a performance.",
-        "businessImpact": "Solução local robusta | Integração financeira CNAB | Gestão eficiente de dados",
-        "github": "https://github.com/teecoleonard/anduril-docs",
-        "demo": "https://teecoleonard.github.io/anduril-docs/",
-        "progress": 100,
-        "status": "Concluído",
         "category": "app",
-        "techs": ["NestJS", "Typescript", "Sqlite"]
+        "title": "ERP Anduril — Gestão Financeira",
+        "description": "Sistema desktop com Electron, React, TypeScript e NestJS para gestão de clientes, contratos, terrenos, documentos e boletos.",
+        "highlights": [
+          "SQLite com transações e backup automático para operação local.",
+          "Integração bancária CNAB 240 com geração de remessas e processamento de retornos.",
+          "Exportação de dados para Excel e automação de rotinas financeiras.",
+          "Validação em múltiplas camadas, logging estruturado e tratamento global de erros."
+        ],
+        "businessImpact": "Organização da gestão financeira e integração entre rotinas administrativas e bancárias.",
+        "sourceNote": "Código privado · documentação pública",
+        "links": [
+          {
+            "label": "Repositório de docs",
+            "url": "https://github.com/teecoleonard/anduril-docs",
+            "kind": "github"
+          },
+          {
+            "label": "Documentação",
+            "url": "https://teecoleonard.github.io/anduril-docs/",
+            "kind": "external"
+          }
+        ],
+        "techs": [
+          "Electron",
+          "React",
+          "TypeScript",
+          "NestJS",
+          "SQLite",
+          "CNAB 240"
+        ]
       },
       {
-        "id": 4,
-        "image": "portfolio1.png",
-        "title": "Psicologia Website",
-        "description": "Website institucional para consultório de psicologia com funcionalidades críticas: agendamento online automatizado e painel administrativo completo. A plataforma digitalizou o processo de agendamento, reduzindo overhead administrativo e melhorando a experiência do paciente.",
-        "businessImpact": "Automação de agendamentos | Redução de overhead administrativo | Presença digital profissional",
-        "github": "https://github.com/teecoleonard/psicoterapia-site",
-        "demo": "https://psisaramartins.com/",
-        "progress": 100,
-        "status": "Concluído",
+        "id": 7,
         "category": "web",
-        "techs": ["React", "JavaScript", "Tailwind"]
+        "title": "CRM SaaS — Plataforma de Gestão Comercial",
+        "description": "Plataforma multi-tenant com Java 21, Spring Boot, Next.js, MySQL e Docker, com isolamento de dados e separação entre API, frontend e control plane.",
+        "highlights": [
+          "Gestão de leads, empresas, oportunidades, visitas e pipeline comercial.",
+          "Migrations com Flyway e validação de schema com ddl-auto=validate.",
+          "Quality gates com testes, cobertura, Sonar e CI/CD.",
+          "DDD, ADRs, Spec-Driven Development e critérios de aceite testáveis para orientar a evolução do sistema."
+        ],
+        "businessImpact": "Gestão comercial por organização, com isolamento de dados e rastreabilidade das decisões técnicas.",
+        "sourceNote": "Repositório privado",
+        "links": [],
+        "techs": [
+          "Java 21",
+          "Spring Boot",
+          "Next.js",
+          "MySQL",
+          "Docker",
+          "Flyway",
+          "Sonar"
+        ]
       },
       {
-        "id": 5,
-        "image": "portfolio5.png",
-        "title": "TMDB para CSV",
-        "description": "Pipeline de extração o processamento de dados do TMDB (The Movie Database). Integração de API externa para captura, transformação e persistência de dados em CSV. Projeto demonstra expertise em análise de dados, ETL e pipelines de processamento.",
-        "businessImpact": "Pipeline de dados automatizado | Insights de dados estruturados | Análise facilitada",
-        "github": "https://github.com/teecoleonard/Projeto",
-        "demo": "https://github.com/teecoleonard/Projeto",
-        "progress": 100,
-        "status": "Concluído",
+        "id": 8,
+        "category": "app",
+        "title": "Plataforma de Serviços em Tempo Real",
+        "description": "Plataforma em desenvolvimento com backend NestJS, PostgreSQL, Redis e Socket.IO, integrada a uma aplicação mobile React Native/Expo.",
+        "highlights": [
+          "Geolocalização, matching de profissionais e notificações para conectar clientes a prestadores de serviço.",
+          "Chat e tracking em tempo real durante o atendimento.",
+          "Redis para geolocalização, locks e processamento assíncrono.",
+          "Testes de unidade, integração e aceitação com Vitest, Supertest e Testcontainers."
+        ],
+        "businessImpact": "Conexão entre clientes e profissionais, com acompanhamento do atendimento em tempo real.",
+        "sourceNote": "Repositório privado · em desenvolvimento",
+        "links": [],
+        "techs": [
+          "NestJS",
+          "PostgreSQL",
+          "Redis",
+          "Socket.IO",
+          "React Native / Expo",
+          "Vitest",
+          "Supertest",
+          "Testcontainers"
+        ]
+      },
+      {
+        "id": 9,
         "category": "api",
-        "techs": ["Python", "TMDB", "CSV"]
+        "title": "Aplicações com IA e Salesforce",
+        "description": "Backend Node.js e componentes Salesforce/LWC para integrar aplicações, APIs, dados corporativos e serviços de IA.",
+        "highlights": [
+          "Backend de integração entre aplicações e serviços de IA.",
+          "Componentes LWC integrados ao ecossistema Salesforce.",
+          "Exploração de LLMs em fluxos de automação e sistemas corporativos.",
+          "Desenvolvimento orientado à integração entre APIs, dados e funcionalidades de negócio."
+        ],
+        "businessImpact": "Aplicação de IA a fluxos de negócio e automação no ambiente Salesforce.",
+        "sourceNote": "Repositórios públicos de backend e LWC",
+        "links": [
+          {
+            "label": "Backend Node.js",
+            "url": "https://github.com/teecoleonard/salesforce-llm-backend",
+            "kind": "github"
+          },
+          {
+            "label": "Salesforce / LWC",
+            "url": "https://github.com/teecoleonard/lwc-salesforce-ia",
+            "kind": "github"
+          }
+        ],
+        "techs": [
+          "Node.js",
+          "Salesforce",
+          "LWC",
+          "REST APIs",
+          "LLMs"
+        ]
       },
       {
-        "id": 6,
-        "image": "portfolio8.png",
-        "title": "ALG Orçamento",
-        "description": "Plataforma web complementar ao ALG Gestão que automatiza a geração e envio de orçamentos de equipamentos. Redução significativa de tempo operacional através de formulários inteligentes e integração com sistema de e-mail. Interface intuitiva desenvolvida com React, TypeScript e Tailwind CSS.",
-        "businessImpact": "Automação de orçamentos | Redução de tempo operacional | Integração com ALG Gestão",
-        "github": "https://github.com/teecoleonard/alg-orcamento",
-        "demo": "https://github.com/teecoleonard/alg-orcamento",
-        "progress": 100,
-        "status": "Concluído",
+        "id": 10,
         "category": "web",
-        "techs": ["React", "TypeScript", "Tailwind"]
+        "title": "Psicoterapia Site — Agendamento para Consultório de Psicologia",
+        "description": "Website institucional para consultório de psicologia construído com React, JavaScript e Tailwind CSS, com agendamento online automatizado e painel administrativo completo. A plataforma digitalizou o processo de agendamento, reduzindo o overhead administrativo e melhorando a experiência do paciente.",
+        "highlights": [
+          "Agendamento online automatizado que substituiu o processo manual por telefone.",
+          "Painel administrativo completo para gestão de agendamentos e operação do consultório.",
+          "Design institucional responsivo e profissional construído com Tailwind CSS."
+        ],
+        "businessImpact": "Automação de agendamentos e redução de overhead administrativo, com presença digital profissional.",
+        "sourceNote": "Repositório público",
+        "links": [
+          {
+            "label": "Repositório",
+            "url": "https://github.com/teecoleonard/psicoterapia-site",
+            "kind": "github"
+          }
+        ],
+        "techs": [
+          "React",
+          "JavaScript",
+          "Tailwind CSS"
+        ]
       }
     ]
   },
@@ -223,34 +405,29 @@
   },
   "projects": [
     {
-      "title": "ALG Gestão",
-      "description": "Aplicativo Android desenvolvido para otimizar o gerenciamento de contratos e equipamentos da empresa ALG Equipamentos. A solução centralizou dados operacionais, aumentou rastreabilidade de contratos e reduziu significativamente o tempo de cadastro através de fluxo de trabalho otimizado. Arquitetura MVVM com persistência MySQL.",
-      "businessImpact": "Redução de processos manuais | Melhoria de rastreabilidade | Otimização operacional"
+      "title": "ALG Gestão — Sistema de gestão de locação",
+      "description": "Android nativo em Kotlin com MVVM/Repository, operação offline com Room e API REST em Node.js/Express, Sequelize e MySQL para gerenciar o ciclo de locação.",
+      "businessImpact": "Centralização da operação de locação e continuidade do trabalho offline."
     },
     {
-      "title": "PokéApp",
-      "description": "Aplicação mobile multiplataforma profissional desenvolvida como resposta a desafio técnico. Integração com PokéAPI demonstrando expertise em consumo de APIs REST, tratamento de dados e UX responsiva. Desenvolvido com Ionic 8 + Angular 19 com testes automatizados e padrões modernos de desenvolvimento.",
-      "businessImpact": "Demonstra arquitetura escalável | Integração de APIs | Qualidade em produção"
+      "title": "ERP Anduril — Gestão Financeira",
+      "description": "Sistema desktop com Electron, React, TypeScript e NestJS para gestão de clientes, contratos, terrenos, documentos e boletos.",
+      "businessImpact": "Organização da gestão financeira e integração entre rotinas administrativas e bancárias."
     },
     {
-      "title": "ERP Anduril 1.0",
-      "description": "Sistema de gerenciamento de usuários com autenticação robusta via Firebase. Implementação de login social, recuperação de senha segura e perfis de usuário personalizáveis. Demonstra expertise em segurança de dados e experiência de usuário em fluxos críticos.",
-      "businessImpact": "Segurança autenticação | Escalabilidade cloud | Experiência de usuário aprimorada"
+      "title": "CRM SaaS — Plataforma de Gestão Comercial",
+      "description": "Plataforma multi-tenant com Java 21, Spring Boot, Next.js, MySQL e Docker, com isolamento de dados e separação entre API, frontend e control plane.",
+      "businessImpact": "Gestão comercial por organização, com isolamento de dados e rastreabilidade das decisões técnicas."
     },
     {
-      "title": "Psicologia Website",
-      "description": "Website institucional para consultório de psicologia com funcionalidades críticas: agendamento online automatizado e painel administrativo completo. A plataforma digitalizou o processo de agendamento, reduzindo overhead administrativo e melhorando a experiência do paciente.",
-      "businessImpact": "Automação de agendamentos | Redução de overhead administrativo | Presença digital profissional"
+      "title": "Plataforma de Serviços em Tempo Real",
+      "description": "Plataforma em desenvolvimento com backend NestJS, PostgreSQL, Redis e Socket.IO, integrada a uma aplicação mobile React Native/Expo.",
+      "businessImpact": "Conexão entre clientes e profissionais, com acompanhamento do atendimento em tempo real."
     },
     {
-      "title": "TMDB para CSV",
-      "description": "Pipeline de extração o processamento de dados do TMDB (The Movie Database). Integração de API externa para captura, transformação e persistência de dados em CSV. Projeto demonstra expertise em análise de dados, ETL e pipelines de processamento.",
-      "businessImpact": "Pipeline de dados automatizado | Insights de dados estruturados | Análise facilitada"
-    },
-    {
-      "title": "ALG Orçamento",
-      "description": "Plataforma web complementar ao ALG Gestão que automatiza a geração e envio de orçamentos de equipamentos. Redução significativa de tempo operacional através de formulários inteligentes e integração com sistema de e-mail. Interface intuitiva desenvolvida com React, TypeScript e Tailwind CSS.",
-      "businessImpact": "Automação de orçamentos | Redução de tempo operacional | Integração com ALG Gestão"
+      "title": "Aplicações com IA e Salesforce",
+      "description": "Backend Node.js e componentes Salesforce/LWC para integrar aplicações, APIs, dados corporativos e serviços de IA.",
+      "businessImpact": "Aplicação de IA a fluxos de negócio e automação no ambiente Salesforce."
     }
   ]
 }

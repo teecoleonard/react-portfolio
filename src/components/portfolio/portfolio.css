@@ -40,7 +40,7 @@
 /* Ajuste na estrutura do container principal */
 .portfolio__items {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
   max-width: 100%;
   margin: 0 auto;
@@ -174,6 +174,61 @@
   display: flex;
   gap: 0.6rem;
   margin-top: auto;
+  flex-wrap: wrap;
+}
+
+.portfolio__category-label {
+  color: var(--color-primary-variant);
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.portfolio__highlights {
+  padding-left: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--color-light-dark);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.portfolio__highlights li {
+  list-style: disc;
+  margin-bottom: 0.45rem;
+  overflow-wrap: anywhere;
+}
+
+.portfolio__techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio__tech-tag {
+  color: var(--color-dark);
+  background: var(--color-lighter);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--border-radius-sm);
+  font-size: 0.75rem;
+}
+
+.portfolio__source-note {
+  color: var(--color-light-dark);
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.portfolio__item-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.portfolio__filters button:focus-visible,
+.portfolio__item-cta a:focus-visible {
+  outline: 2px solid var(--color-primary-variant);
+  outline-offset: 3px;
 }
 
 /* Portfolio Image Component Styles */
